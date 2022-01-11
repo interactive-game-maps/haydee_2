@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Interactive map of Haydee 2</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Leaflet's CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" crossorigin="" />
+
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet/dist/leaflet.js" crossorigin=""></script>
+
+	<!-- Grouping markers to cluster -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" crossorigin="" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"
+		crossorigin="" />
+	<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js" crossorigin=""></script>
+
+	<!-- Extra markers -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet-extra-markers/dist/css/leaflet.extra-markers.min.css"
+		crossorigin="" />
+	<script src="https://unpkg.com/leaflet-extra-markers/dist/js/leaflet.extra-markers.min.js" crossorigin=""></script>
+
+	<!-- Addittional icons -->
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/fontawesome.min.css" rel="stylesheet"
+		crossorigin="" />
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/solid.min.css" rel="stylesheet"
+		crossorigin="" />
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/brands.min.css" rel="stylesheet"
+		crossorigin="" />
+
+	<!-- Sidebar -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet-sidebar-v2/css/leaflet-sidebar.css" crossorigin="" />
+	<script src="https://unpkg.com/leaflet-sidebar-v2/js/leaflet-sidebar.min.js" crossorigin=""></script>
+
+	<!-- Marker editor -->
+	<link rel="stylesheet" href="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.css"
+		crossorigin="" />
+	<script src="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.min.js"
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div id="map"></div>
+
+	<!-- include map base layers -->
+	<script src="./map_layers.js" type="text/javascript"></script>
+
+	<!-- include map utils -->
+	<script src="./map_utils.js" type="text/javascript"></script>
+
+	<!-- include markers from file -->
+	<script src="./marker/notes.js" type="text/javascript"></script>
+	<script src="./marker/magnets.js" type="text/javascript"></script>
+	<script src="./marker/cases.js" type="text/javascript"></script>
+	<script src="./marker/mines.js" type="text/javascript"></script>
+	<script src="./marker/floppy_disks.js" type="text/javascript"></script>
+	<script src="./marker/medkits.js" type="text/javascript"></script>
+	<script src="./marker/ammo_pistol.js" type="text/javascript"></script>
+	<script src="./marker/ammo_smg.js" type="text/javascript"></script>
+	<script src="./marker/ammo_magnum.js" type="text/javascript"></script>
+	<script src="./marker/ammo_shotgun.js" type="text/javascript"></script>
+	<script src="./marker/component_blue.js" type="text/javascript"></script>
+	<script src="./marker/component_red.js" type="text/javascript"></script>
+	<script src="./marker/component_yellow.js" type="text/javascript"></script>
+	<script src="./marker/tools.js" type="text/javascript"></script>
+	<script src="./marker/save_locations.js" type="text/javascript"></script>
+	<script src="./marker/rooms.js" type="text/javascript"></script>
+
+	<!-- include marker logic -->
+	<script src="./marker_logic/notes.js" type="text/javascript"></script>
+	<script src="./marker_logic/magnets.js" type="text/javascript"></script>
+	<script src="./marker_logic/cases.js" type="text/javascript"></script>
+	<script src="./marker_logic/mines.js" type="text/javascript"></script>
+	<script src="./marker_logic/floppy_disks.js" type="text/javascript"></script>
+	<script src="./marker_logic/medkits.js" type="text/javascript"></script>
+	<script src="./marker_logic/ammo_pistol.js" type="text/javascript"></script>
+	<script src="./marker_logic/ammo_smg.js" type="text/javascript"></script>
+	<script src="./marker_logic/ammo_magnum.js" type="text/javascript"></script>
+	<script src="./marker_logic/ammo_shotgun.js" type="text/javascript"></script>
+	<script src="./marker_logic/component_blue.js" type="text/javascript"></script>
+	<script src="./marker_logic/component_red.js" type="text/javascript"></script>
+	<script src="./marker_logic/component_yellow.js" type="text/javascript"></script>
+	<script src="./marker_logic/tools.js" type="text/javascript"></script>
+	<script src="./marker_logic/save_locations.js" type="text/javascript"></script>
+	<script src="./marker_logic/rooms.js" type="text/javascript"></script>
+
+	<!-- include map control -->
+	<script src="./map_controls.js" type="text/javascript"></script>
+</body>
+
+</html>
