@@ -1,5 +1,5 @@
 // Helper functions
-function getPopupMedia(feature, html) {
+function getPopupMedia(feature, list_id, html) {
     const POPUP_WIDTH = 500;
 
     if (feature.properties.case_image_id) {
@@ -16,7 +16,7 @@ function getPopupMedia(feature, html) {
     } else if (feature.properties.image_id) {
         var image_link = document.createElement('a');
         image_link.className = 'popup-media';
-        image_link.href = `images/${params.list_id}/${feature.properties.image_id}.png`;
+        image_link.href = `images/${list_id}/${feature.properties.image_id}.png`;
 
         var image = document.createElement('img');
         image.src = image_link.href;
@@ -38,7 +38,7 @@ function getPopupMedia(feature, html) {
     } else if (feature.properties.id) {
         var image_link = document.createElement('a');
         image_link.className = 'popup-media';
-        image_link.href = `images/${params.list_id}/${feature.properties.id}.png`;
+        image_link.href = `images/${list_id}/${feature.properties.id}.png`;
 
         var image = document.createElement('img');
         image.src = image_link.href;
@@ -139,7 +139,7 @@ function addPopup(feature, layer, args = {}) {
 
             html.appendChild(title);
 
-            html = getPopupMedia(feature, html);
+            html = getPopupMedia(feature, params.list_id, html);
 
             if (feature.properties.description) {
                 var description = document.createElement('p');
