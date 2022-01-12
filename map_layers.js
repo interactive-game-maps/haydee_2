@@ -1,5 +1,5 @@
 var website = 'https://github.com/interactive-game-maps/haydee_2';
-var website_subdir = '/haydee_2';
+var website_subdir = 'haydee_2';
 var attribution = `<div>Icons made by <a href="https://fontawesome.com/" title="Font Awesome">Font Awesome</a> under <a href="https://fontawesome.com/license">CCA4</a>.</div>`;
 
 var map = L.map('map', {
@@ -74,7 +74,7 @@ tiled_map.addTo(map);
             });
             var active_custom_layer = custom_layers[Object.keys(active_custom_layers)[0]]
 
-            localStorage.removeItem(Object.keys(active_custom_layers)[0]);
+            localStorage.removeItem(`${website_subdir}:${Object.keys(active_custom_layers)[0]}`);
             custom_layer_controls.removeLayer(active_custom_layer);
             map.removeLayer(active_custom_layer);
             delete custom_layers[Object.keys(active_custom_layers)[0]];
@@ -123,16 +123,16 @@ tiled_map.addTo(map);
         var array = [];
 
         if (Object.keys(custom_layers).length < 1) {
-            localStorage.removeItem('custom_layers');
+            localStorage.removeItem(`${website_subdir}:custom_layers`);
             return;
         }
 
         Object.keys(custom_layers).forEach(key => {
-            localStorage.setItem(key, JSON.stringify(custom_layers[key].toGeoJSON()));
+            localStorage.setItem(`${website_subdir}:${key}`, JSON.stringify(custom_layers[key].toGeoJSON()));
             array.push(key);
         });
 
-        localStorage.setItem('custom_layers', JSON.stringify(array));
+        localStorage.setItem(`${website_subdir}:custom_layers`, JSON.stringify(array));
     };
 
     // The unload method seems unreliable so also save every 5 minutes
@@ -140,16 +140,16 @@ tiled_map.addTo(map);
         var array = [];
 
         if (Object.keys(custom_layers).length < 1) {
-            localStorage.removeItem('custom_layers');
+            localStorage.removeItem(`${website_subdir}:custom_layers`);
             return;
         }
 
         Object.keys(custom_layers).forEach(key => {
-            localStorage.setItem(key, JSON.stringify(custom_layers[key].toGeoJSON()));
+            localStorage.setItem(`${website_subdir}:${key}`, JSON.stringify(custom_layers[key].toGeoJSON()));
             array.push(key);
         });
 
-        localStorage.setItem('custom_layers', JSON.stringify(array));
+        localStorage.setItem(`${website_subdir}:custom_layers`, JSON.stringify(array));
     }, 300000);
 }
 
@@ -172,7 +172,13 @@ tiled_map.addTo(map);
             }
 
             custom_layers = {};
-            localStorage.clear();
+
+            for (var key in localStorage) {
+                if (key.startsWith(`${website_subdir}:`)) {
+                    localStorage.removeItem(key);
+                }
+            };
+
             location.reload();
         }
     });
@@ -263,7 +269,7 @@ tiled_map.addTo(map);
     });
 
     sidebar.on('closing', () => {
-        history.replaceState({}, "", website_subdir);
+        history.replaceState({}, "", `/${website_subdir}`);
     })
 }
 

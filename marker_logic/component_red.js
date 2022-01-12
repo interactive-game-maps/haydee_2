@@ -71,3 +71,7 @@ marker.get(component_red_group_id).set('name', component_red_group_name);
 if (component_red_create_checkbox) {
     setColumnCount(marker.get(component_red_group_id), component_red_list);
 }
+
+// Add as a default layer
+// This needs the display name because the layer control don't report ids
+default_layers.push(component_red_group_name);
