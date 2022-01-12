@@ -12,7 +12,7 @@ var rooms_administrative_geojson = L.geoJSON(rooms_administrative, {
             },
             click: (e) => {
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
-                history.replaceState({}, "", "index.html?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
+                history.replaceState({}, "", "?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
             }
         });
 
@@ -40,7 +40,7 @@ var rooms_engineering_geojson = L.geoJSON(rooms_engineering, {
             },
             click: (e) => {
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
-                history.replaceState({}, "", "index.html?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
+                history.replaceState({}, "", "?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
             }
         });
 
@@ -68,7 +68,7 @@ var rooms_habitat_geojson = L.geoJSON(rooms_habitat, {
             },
             click: (e) => {
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
-                history.replaceState({}, "", "index.html?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
+                history.replaceState({}, "", "?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
             }
         });
 
@@ -96,7 +96,7 @@ var rooms_medical_geojson = L.geoJSON(rooms_medical, {
             },
             click: (e) => {
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
-                history.replaceState({}, "", "index.html?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
+                history.replaceState({}, "", "?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
             }
         });
 
@@ -124,7 +124,7 @@ var rooms_security_geojson = L.geoJSON(rooms_security, {
             },
             click: (e) => {
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
-                history.replaceState({}, "", "index.html?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
+                history.replaceState({}, "", "?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
             }
         });
 
@@ -152,7 +152,7 @@ var rooms_technical_geojson = L.geoJSON(rooms_technical, {
             },
             click: (e) => {
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
-                history.replaceState({}, "", "index.html?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
+                history.replaceState({}, "", "?list=" + rooms_group_id + "&id=" + e.target.feature.properties.id);
             }
         });
 

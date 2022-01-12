@@ -1,4 +1,5 @@
 var website = 'https://github.com/interactive-game-maps/haydee_2';
+var website_subdir = '/haydee_2';
 var attribution = `<div>Icons made by <a href="https://fontawesome.com/" title="Font Awesome">Font Awesome</a> under <a href="https://fontawesome.com/license">CCA4</a>.</div>`;
 
 var map = L.map('map', {
@@ -258,11 +259,11 @@ tiled_map.addTo(map);
         if (event.id == 'attributions') return;
 
         map.addLayer(marker.get(event.id).get('group'));
-        history.replaceState({}, "", "index.html?list=" + event.id);
+        history.replaceState({}, "", "?list=" + event.id);
     });
 
     sidebar.on('closing', () => {
-        history.replaceState({}, "", "index.html");
+        history.replaceState({}, "", website_subdir);
     })
 }
 
