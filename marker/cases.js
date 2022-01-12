@@ -243,7 +243,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_TRD",
-                "description": "Softcore:\t\t10 Magnum ammo\nHardcore:\t5 Magnum ammo"
+                "description": "Missable\nSoftcore:\t\t10 Magnum ammo\nHardcore:\t5 Magnum ammo"
             },
             "geometry": {
                 "type": "Point",
