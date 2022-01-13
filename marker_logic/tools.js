@@ -13,6 +13,7 @@ var battery_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/battery.png',
+        iconRetinaUrl: 'marker/battery.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -21,6 +22,7 @@ var blue_keycard_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/blue_keycard.png',
+        iconRetinaUrl: 'marker/blue_keycard.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -29,6 +31,7 @@ var yellow_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/yellow.png',
+        iconRetinaUrl: 'marker/yellow.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -37,6 +40,7 @@ var teal_keycard_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/teal_keycard.png',
+        iconRetinaUrl: 'marker/teal_keycard.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -45,6 +49,7 @@ var orange_keycard_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/orange_keycard.png',
+        iconRetinaUrl: 'marker/orange_keycard.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -53,6 +58,7 @@ var white_keycard_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/white_keycard.png',
+        iconRetinaUrl: 'marker/white_keycard.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -61,6 +67,7 @@ var black_keycard_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/black_keycard.png',
+        iconRetinaUrl: 'marker/black_keycard.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -69,6 +76,7 @@ var pink_keycard_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/pink_keycard.png',
+        iconRetinaUrl: 'marker/pink_keycard.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -77,6 +85,7 @@ var green_keycard_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/green_keycard.png',
+        iconRetinaUrl: 'marker/green_keycard.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -85,6 +94,7 @@ var yellow_keycard_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/yellow_keycard.png',
+        iconRetinaUrl: 'marker/yellow_keycard.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -93,6 +103,7 @@ var screwdriver_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/screwdriver.png',
+        iconRetinaUrl: 'marker/screwdriver.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -101,6 +112,7 @@ var wrench_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/wrench.png',
+        iconRetinaUrl: 'marker/wrench.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -109,6 +121,7 @@ var knife_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/knife.png',
+        iconRetinaUrl: 'marker/knife.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -117,6 +130,7 @@ var crowbar_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/crowbar.png',
+        iconRetinaUrl: 'marker/crowbar.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -125,6 +139,7 @@ var upgrade_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/upgrade.png',
+        iconRetinaUrl: 'marker/upgrade.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -133,6 +148,7 @@ var boltcutter_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/boltcutter.png',
+        iconRetinaUrl: 'marker/boltcutter.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -141,6 +157,7 @@ var jammer_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/jammer.png',
+        iconRetinaUrl: 'marker/jammer.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -149,6 +166,7 @@ var pouch_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/pouch.png',
+        iconRetinaUrl: 'marker/pouch.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

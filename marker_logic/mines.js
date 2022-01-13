@@ -13,6 +13,7 @@ var mines_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/mines.png',
+        iconRetinaUrl: 'marker/mines.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

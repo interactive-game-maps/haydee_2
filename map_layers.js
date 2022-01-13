@@ -16,7 +16,7 @@ var map = L.map('map', {
 // ./gdal2tiles.py -l -p raster -w none -z 2-5 full_map.jpg map_tiles
 var tiled_map = new L.tileLayer('map_tiles/{z}/{x}/{y}.png', {
     minNativeZoom: 2,
-    maxNativeZoom: 8,
+    maxNativeZoom: L.Browser.retina ? 7 : 8, // 1 level LOWER for high pixel ratio device.
     noWrap: true,
     detectRetina: true
 });

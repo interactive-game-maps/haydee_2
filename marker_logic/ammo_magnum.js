@@ -13,6 +13,7 @@ var ammo_magnum_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/ammo_magnum.png',
+        iconRetinaUrl: 'marker/ammo_magnum.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -21,6 +22,7 @@ var ammo_magnum_softcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/ammo_magnum_softcore.png',
+        iconRetinaUrl: 'marker/ammo_magnum_softcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -29,6 +31,7 @@ var ammo_magnum_hardcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/ammo_magnum_hardcore.png',
+        iconRetinaUrl: 'marker/ammo_magnum_hardcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

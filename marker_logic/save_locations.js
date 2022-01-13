@@ -11,6 +11,7 @@ var save_locations_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/save_locations.png',
+        iconRetinaUrl: 'marker/save_locations.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

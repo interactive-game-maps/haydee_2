@@ -13,6 +13,7 @@ var ammo_shotgun_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/ammo_shotgun.png',
+        iconRetinaUrl: 'marker/ammo_shotgun.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -21,6 +22,7 @@ var ammo_shotgun_softcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/ammo_shotgun_softcore.png',
+        iconRetinaUrl: 'marker/ammo_shotgun_softcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -29,6 +31,7 @@ var ammo_shotgun_hardcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/ammo_shotgun_hardcore.png',
+        iconRetinaUrl: 'marker/ammo_shotgun_hardcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

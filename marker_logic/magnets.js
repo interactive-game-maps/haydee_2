@@ -14,6 +14,7 @@ var magnets_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/magnets.png',
+        iconRetinaUrl: 'marker/magnets.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -22,6 +23,7 @@ var magnets_softcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/magnets_softcore.png',
+        iconRetinaUrl: 'marker/magnets_softcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -30,6 +32,7 @@ var magnets_hardcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/magnets_hardcore.png',
+        iconRetinaUrl: 'marker/magnets_hardcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

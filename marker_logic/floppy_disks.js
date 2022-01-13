@@ -12,6 +12,7 @@ var floppy_disks_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/floppy_disks.png',
+        iconRetinaUrl: 'marker/floppy_disks.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

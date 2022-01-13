@@ -12,6 +12,7 @@ var cases_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/cases.png',
+        iconRetinaUrl: 'marker/cases.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

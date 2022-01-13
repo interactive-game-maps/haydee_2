@@ -13,6 +13,7 @@ var medkits_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/medkits.png',
+        iconRetinaUrl: 'marker/medkits.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -21,6 +22,7 @@ var medkits_softcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/medkits_softcore.png',
+        iconRetinaUrl: 'marker/medkits_softcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

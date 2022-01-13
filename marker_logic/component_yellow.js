@@ -14,6 +14,7 @@ var component_yellow_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/component_yellow.png',
+        iconRetinaUrl: 'marker/component_yellow.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -22,6 +23,7 @@ var component_yellow_softcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/component_yellow_softcore.png',
+        iconRetinaUrl: 'marker/component_yellow_softcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -30,6 +32,7 @@ var component_yellow_hardcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/component_yellow_hardcore.png',
+        iconRetinaUrl: 'marker/component_yellow_hardcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

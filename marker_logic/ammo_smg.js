@@ -13,6 +13,7 @@ var ammo_smg_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/ammo_smg.png',
+        iconRetinaUrl: 'marker/ammo_smg.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -21,6 +22,7 @@ var ammo_smg_softcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/ammo_smg_softcore.png',
+        iconRetinaUrl: 'marker/ammo_smg_softcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
@@ -29,6 +31,7 @@ var ammo_smg_hardcore_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/ammo_smg_hardcore.png',
+        iconRetinaUrl: 'marker/ammo_smg_hardcore.png',
         shadowUrl: 'marker/shadow.png'
     }
 });

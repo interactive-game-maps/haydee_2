@@ -12,6 +12,7 @@ var notes_icon = L.Icon.Default.extend({
     options: {
         imagePath: './',
         iconUrl: 'marker/notes.png',
+        iconRetinaUrl: 'marker/notes.png',
         shadowUrl: 'marker/shadow.png'
     }
 });
