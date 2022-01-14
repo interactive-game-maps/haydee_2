@@ -2,41 +2,22 @@ var medkits_group_name = 'Medkits';
 var medkits_group_id = 'medkits';
 var medkits_create_checkbox = true;
 
-var medkits_list = createSidebarTab(medkits_group_id, medkits_group_name, '<img class="sidebar-image" src="images/sidebar/medkits.png"></img>');
+var medkits_list = createSidebarTab(medkits_group_id, medkits_group_name, `<img class="sidebar-image" src="images/icons/${medkits_group_id}.png" />`);
 
-// Create marker group
 var medkits_group = L.markerClusterGroup({
     maxClusterRadius: 40
-});
-
-var medkits_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/medkits.png',
-        iconRetinaUrl: 'marker/medkits.png',
-        shadowUrl: 'marker/shadow.png'
-    }
-});
-
-var medkits_softcore_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/medkits_softcore.png',
-        iconRetinaUrl: 'marker/medkits_softcore.png',
-        shadowUrl: 'marker/shadow.png'
-    }
 });
 
 L.geoJSON(medkits, {
     pointToLayer: (feature, latlng) => {
         if ("description" in feature.properties && feature.properties.description.includes("Softcore only!")) {
             return L.marker(latlng, {
-                icon: new medkits_softcore_icon,
+                icon: getCustomMarker(medkits_group_id, "easy"),
                 riseOnHover: true
             });
         } else {
             return L.marker(latlng, {
-                icon: new medkits_icon,
+                icon: getCustomMarker(medkits_group_id),
                 riseOnHover: true
             });
         }

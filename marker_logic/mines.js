@@ -2,26 +2,16 @@ var mines_group_name = 'Mines';
 var mines_group_id = 'mines';
 var mines_create_checkbox = true;
 
-var mines_list = createSidebarTab(mines_group_id, mines_group_name, '<img class="sidebar-image" src="images/sidebar/mines.png"></img>');
+var mines_list = createSidebarTab(mines_group_id, mines_group_name, `<img class="sidebar-image" src="images/icons/${mines_group_id}.png" />`);
 
-// Create marker group
 var mines_group = L.markerClusterGroup({
     maxClusterRadius: 40
-});
-
-var mines_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/mines.png',
-        iconRetinaUrl: 'marker/mines.png',
-        shadowUrl: 'marker/shadow.png'
-    }
 });
 
 L.geoJSON(mines, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: new mines_icon,
+            icon: getCustomMarker(mines_group_id),
             riseOnHover: true
         });
     },

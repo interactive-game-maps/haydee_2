@@ -2,56 +2,27 @@ var component_yellow_group_name = 'Yellow component';
 var component_yellow_group_id = 'component_yellow';
 var component_yellow_create_checkbox = true;
 
-// Create list
-var component_yellow_list = createSidebarTab(component_yellow_group_id, component_yellow_group_name, '<img class="sidebar-image" src="images/sidebar/component_yellow.png"></img>');
+var component_yellow_list = createSidebarTab(component_yellow_group_id, component_yellow_group_name, `<img class="sidebar-image" src="images/icons/${component_yellow_group_id}.png" />`);
 
-// Create marker group
 var component_yellow_group = L.markerClusterGroup({
     maxClusterRadius: 40
-});
-
-var component_yellow_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/component_yellow.png',
-        iconRetinaUrl: 'marker/component_yellow.png',
-        shadowUrl: 'marker/shadow.png'
-    }
-});
-
-var component_yellow_softcore_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/component_yellow_softcore.png',
-        iconRetinaUrl: 'marker/component_yellow_softcore.png',
-        shadowUrl: 'marker/shadow.png'
-    }
-});
-
-var component_yellow_hardcore_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/component_yellow_hardcore.png',
-        iconRetinaUrl: 'marker/component_yellow_hardcore.png',
-        shadowUrl: 'marker/shadow.png'
-    }
 });
 
 L.geoJSON(component_yellow, {
     pointToLayer: (feature, latlng) => {
         if ("description" in feature.properties && feature.properties.description.includes("Softcore")) {
             return L.marker(latlng, {
-                icon: new component_yellow_softcore_icon,
+                icon: getCustomMarker(component_yellow_group_id, "easy"),
                 riseOnHover: true
             });
         } else if ("description" in feature.properties && feature.properties.description.includes("Hardcore")) {
             return L.marker(latlng, {
-                icon: new component_yellow_hardcore_icon,
+                icon: getCustomMarker(component_yellow_group_id, "hard"),
                 riseOnHover: true
             });
         } else {
             return L.marker(latlng, {
-                icon: new component_yellow_icon,
+                icon: getCustomMarker(component_yellow_group_id),
                 riseOnHover: true
             });
         }

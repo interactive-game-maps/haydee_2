@@ -2,56 +2,27 @@ var component_red_group_name = 'Red component';
 var component_red_group_id = 'component_red';
 var component_red_create_checkbox = true;
 
-// Create list
-var component_red_list = createSidebarTab(component_red_group_id, component_red_group_name, '<img class="sidebar-image" src="images/sidebar/component_red.png"></img>');
+var component_red_list = createSidebarTab(component_red_group_id, component_red_group_name, `<img class="sidebar-image" src="images/icons/${component_red_group_id}.png" />`);
 
-// Create marker group
 var component_red_group = L.markerClusterGroup({
     maxClusterRadius: 40
-});
-
-var component_red_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/component_red.png',
-        iconRetinaUrl: 'marker/component_red.png',
-        shadowUrl: 'marker/shadow.png'
-    }
-});
-
-var component_red_softcore_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/component_red_softcore.png',
-        iconRetinaUrl: 'marker/component_red_softcore.png',
-        shadowUrl: 'marker/shadow.png'
-    }
-});
-
-var component_red_hardcore_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/component_red_hardcore.png',
-        iconRetinaUrl: 'marker/component_red_hardcore.png',
-        shadowUrl: 'marker/shadow.png'
-    }
 });
 
 L.geoJSON(component_red, {
     pointToLayer: (feature, latlng) => {
         if ("description" in feature.properties && feature.properties.description.includes("Softcore")) {
             return L.marker(latlng, {
-                icon: new component_red_softcore_icon,
+                icon: getCustomMarker(component_red_group_id, "easy"),
                 riseOnHover: true
             });
         } else if ("description" in feature.properties && feature.properties.description.includes("Hardcore")) {
             return L.marker(latlng, {
-                icon: new component_red_hardcore_icon,
+                icon: getCustomMarker(component_red_group_id, "hard"),
                 riseOnHover: true
             });
         } else {
             return L.marker(latlng, {
-                icon: new component_red_icon,
+                icon: getCustomMarker(component_red_group_id),
                 riseOnHover: true
             });
         }

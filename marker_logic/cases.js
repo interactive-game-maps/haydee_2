@@ -2,25 +2,16 @@ var cases_group_name = 'Cases';
 var cases_group_id = 'cases';
 var cases_create_checkbox = true;
 
-var cases_list = createSidebarTab(cases_group_id, cases_group_name, '<img class="sidebar-image" src="images/sidebar/cases.png"></img>');
+var cases_list = createSidebarTab(cases_group_id, cases_group_name, `<img class="sidebar-image" src="images/icons/${cases_group_id}.png" />`);
 
 var cases_group = L.markerClusterGroup({
     maxClusterRadius: 40
 });
 
-var cases_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/cases.png',
-        iconRetinaUrl: 'marker/cases.png',
-        shadowUrl: 'marker/shadow.png'
-    }
-});
-
 L.geoJSON(cases, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: new cases_icon,
+            icon: getCustomMarker(cases_group_id),
             riseOnHover: true
         });
     },

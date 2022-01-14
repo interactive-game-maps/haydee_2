@@ -2,56 +2,27 @@ var magnets_group_name = 'Magnets';
 var magnets_group_id = 'magnets';
 var magnets_create_checkbox = true;
 
-// Create list
-var magnets_list = createSidebarTab(magnets_group_id, magnets_group_name, '<img class="sidebar-image" src="images/sidebar/magnets.png"></img>');
+var magnets_list = createSidebarTab(magnets_group_id, magnets_group_name, `<img class="sidebar-image" src="images/icons/${magnets_group_id}.png" />`);
 
-// Create marker group
 var magnets_group = L.markerClusterGroup({
     maxClusterRadius: 40
-});
-
-var magnets_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/magnets.png',
-        iconRetinaUrl: 'marker/magnets.png',
-        shadowUrl: 'marker/shadow.png'
-    }
-});
-
-var magnets_softcore_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/magnets_softcore.png',
-        iconRetinaUrl: 'marker/magnets_softcore.png',
-        shadowUrl: 'marker/shadow.png'
-    }
-});
-
-var magnets_hardcore_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/magnets_hardcore.png',
-        iconRetinaUrl: 'marker/magnets_hardcore.png',
-        shadowUrl: 'marker/shadow.png'
-    }
 });
 
 L.geoJSON(magnets, {
     pointToLayer: (feature, latlng) => {
         if ("description" in feature.properties && feature.properties.description.includes("Softcore only")) {
             return L.marker(latlng, {
-                icon: new magnets_softcore_icon,
+                icon: getCustomMarker(magnets_group_id, "easy"),
                 riseOnHover: true
             });
         } else if ("description" in feature.properties && feature.properties.description.includes("Hardcore only")) {
             return L.marker(latlng, {
-                icon: new magnets_hardcore_icon,
+                icon: getCustomMarker(magnets_group_id, "hard"),
                 riseOnHover: true
             });
         } else {
             return L.marker(latlng, {
-                icon: new magnets_icon,
+                icon: getCustomMarker(magnets_group_id),
                 riseOnHover: true
             });
         }

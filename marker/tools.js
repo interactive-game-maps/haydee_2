@@ -660,7 +660,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Hand 1",
-                "description": "Opens handscanner door"
+                "description": "Needs saw\nOpens handscanner door"
             },
             "geometry": {
                 "type": "Point",
@@ -674,7 +674,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Hand 2",
-                "description": "Opens handscanner door"
+                "description": "Needs saw\nOpens handscanner door"
             },
             "geometry": {
                 "type": "Point",
@@ -702,7 +702,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Injector",
-                "description": "Injects into the ventilation system"
+                "description": "Injects agent into the ventilation system"
             },
             "geometry": {
                 "type": "Point",
@@ -853,7 +853,7 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Mixer",
+                "id": "Agent mixer",
                 "description": "Needs three flasks"
             },
             "geometry": {
@@ -1186,8 +1186,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Remote",
-                "description": "Activates remote button presser"
+                "id": "Remote control",
+                "description": "Activates remote device"
             },
             "geometry": {
                 "type": "Point",
@@ -1200,7 +1200,7 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Remote button presser",
+                "id": "Remote device 1",
                 "description": "Impossible to take"
             },
             "geometry": {
@@ -1214,7 +1214,7 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Remote button presser"
+                "id": "Remote device 2"
             },
             "geometry": {
                 "type": "Point",

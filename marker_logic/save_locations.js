@@ -2,24 +2,14 @@ var save_locations_group_name = 'Save locations';
 var save_locations_group_id = 'save_locations';
 var save_locations_create_checkbox = false;
 
-// Create marker group
 var save_locations_group = L.markerClusterGroup({
     maxClusterRadius: 40
-});
-
-var save_locations_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/save_locations.png',
-        iconRetinaUrl: 'marker/save_locations.png',
-        shadowUrl: 'marker/shadow.png'
-    }
 });
 
 L.geoJSON(save_locations, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: new save_locations_icon,
+            icon: getCustomMarker(save_locations_group_id),
             riseOnHover: true
         });
     },

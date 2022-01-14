@@ -2,25 +2,16 @@ var notes_group_name = 'Notes';
 var notes_group_id = 'notes';
 var notes_create_checkbox = true;
 
-var notes_list = createSidebarTab(notes_group_id, notes_group_name, '<img class="sidebar-image" src="images/sidebar/notes.png"></img>');
+var notes_list = createSidebarTab(notes_group_id, notes_group_name, `<img class="sidebar-image" src="images/icons/${notes_group_id}.png" />`);
 
 var notes_group = L.markerClusterGroup({
     maxClusterRadius: 40
 });
 
-var notes_icon = L.Icon.Default.extend({
-    options: {
-        imagePath: './',
-        iconUrl: 'marker/notes.png',
-        iconRetinaUrl: 'marker/notes.png',
-        shadowUrl: 'marker/shadow.png'
-    }
-});
-
 L.geoJSON(notes, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: new notes_icon,
+            icon: getCustomMarker(notes_group_id),
             riseOnHover: true
         });
     },

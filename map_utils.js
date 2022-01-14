@@ -503,3 +503,29 @@ function setColumnCount(group, list) {
 
     list.setAttribute('style', `grid-template-columns: repeat(${columns}, auto)`);
 }
+
+function getCustomMarker(icon_id, mode = "normal") {
+    if (icon_id) {
+        return L.divIcon({
+            className: 'map-marker',
+            html: `
+                <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
+                <img class='map-marker-foreground' src='images/icons/${icon_id}.png' />
+                `,
+            iconSize: [25, 41],
+            popupAnchor: [1, -34],
+            iconAnchor: [12, 41],
+            tooltipAnchor: [16, -28]
+        });
+    }
+    return L.divIcon({
+        className: 'map-marker',
+        html: `
+            <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
+            `,
+        iconSize: [25, 41],
+        popupAnchor: [1, -34],
+        iconAnchor: [12, 41],
+        tooltipAnchor: [16, -28]
+    });
+}
