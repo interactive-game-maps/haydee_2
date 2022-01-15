@@ -231,7 +231,7 @@ tiled_map.addTo(map);
                 map.pm.setGlobalOptions({
                     layerGroup: active_custom_layer,
                     markerStyle: {
-                        icon: getCustomMarker(Object.keys(active_custom_layers)[0].substring(0, 2))
+                        icon: getCustomIcon(Object.keys(active_custom_layers)[0].substring(0, 2))
                     }
                 });
 

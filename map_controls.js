@@ -58,7 +58,7 @@ L.control.layers(baseMaps, overlayMaps, {
             var custom_layer = L.geoJSON(JSON.parse(localStorage.getItem(`${website_subdir}:${element}`)), {
                 pointToLayer: (feature, latlng) => {
                     return L.marker(latlng, {
-                        icon: getCustomMarker(element.substring(0, 2)),
+                        icon: getCustomIcon(element.substring(0, 2)),
                         riseOnHover: true
                     });
                 },
@@ -131,7 +131,7 @@ marker.forEach((v, k) => {
 
 { // clicking sets a marker that can be shared
     var share_marker = L.marker([0, 0], {
-        icon: getCustomMarker('fa-share-alt'),
+        icon: getCustomIcon('fa-share-alt'),
         riseOnHover: true,
         draggable: true,
         pmIgnore: true

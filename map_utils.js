@@ -506,7 +506,7 @@ function setColumnCount(group, list) {
     list.setAttribute('style', `grid-template-columns: repeat(${columns}, auto)`);
 }
 
-function getCustomMarker(icon_id, mode = "normal") {
+function getCustomIcon(icon_id, mode = "normal") {
     if (!icon_id) {
         return L.divIcon({
             className: 'map-marker',

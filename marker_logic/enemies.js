@@ -11,7 +11,7 @@ var enemies_group = L.markerClusterGroup({
 L.geoJSON(crawler, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: getCustomMarker('fa-male'),
+            icon: getCustomIcon('fa-male'),
             riseOnHover: true
         });
     },
@@ -31,7 +31,7 @@ L.geoJSON(crawler, {
 L.geoJSON(slasher, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: getCustomMarker('fa-running'),
+            icon: getCustomIcon('fa-running'),
             riseOnHover: true
         });
     },

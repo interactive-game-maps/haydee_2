@@ -11,7 +11,7 @@ var notes_group = L.markerClusterGroup({
 L.geoJSON(notes, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: getCustomMarker(notes_group_id),
+            icon: getCustomIcon(notes_group_id),
             riseOnHover: true
         });
     },
