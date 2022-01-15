@@ -5,7 +5,13 @@ function getPopupMedia(feature, list_id, html) {
     if (feature.properties.image_id) {
         var image_link = document.createElement('a');
         image_link.className = 'popup-media';
-        image_link.href = `images/${feature.properties.image_id}.png`;
+
+        // Check for path
+        if (feature.properties.image_id.includes('/')) {
+            image_link.href = `images/${feature.properties.image_id}.png`;
+        } else {
+            image_link.href = `images/${list_id}/${feature.properties.id}.png`;
+        }
 
         var image = document.createElement('img');
         image.src = image_link.href;
@@ -24,17 +30,6 @@ function getPopupMedia(feature, list_id, html) {
         // video.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen'
 
         html.appendChild(video);
-    } else if (feature.properties.id) {
-        var image_link = document.createElement('a');
-        image_link.className = 'popup-media';
-        image_link.href = `images/${list_id}/${feature.properties.id}.png`;
-
-        var image = document.createElement('img');
-        image.src = image_link.href;
-        image.height = 300;
-
-        image_link.appendChild(image);
-        html.appendChild(image_link);
     }
 
     return html;
