@@ -201,10 +201,15 @@ function addPopup(feature, layer, args = {}) {
             layer.on('popupopen', (event) => {
                 // rewrite url for easy copy pasta
                 setHistoryState(params.list_id, feature.properties.id);
+                map.off('click', moveShareMarker);
             });
 
             layer.on('popupclose', (event) => {
                 setHistoryState();
+
+                window.setTimeout(() => {
+                    map.on('click', moveShareMarker);
+                }, 300);
             });
 
             return html;
@@ -413,6 +418,19 @@ function createEditablePopup(layer) {
 
         return html;
     });
+
+    layer.on('popupopen', (event) => {
+        setHistoryState();
+        map.off('click', moveShareMarker);
+    });
+
+    layer.on('popupclose', (event) => {
+        if (edit_mode) return;
+
+        window.setTimeout(() => {
+            map.on('click', moveShareMarker);
+        }, 300);
+    });
 }
 
 // https://stackoverflow.com/a/18197341
@@ -575,7 +593,21 @@ function setHistoryState(list_id = undefined, marker_id = undefined) {
     } else if (list_id) {
         history.replaceState({}, "", `?list=${list_id}`);
     } else {
-        history.replaceState({}, "", `/${website_subdir}/`);
+        // CORS is driving me crazy
+        // https://stackoverflow.com/a/3920899
+        switch (window.location.protocol) {
+            case 'http:':
+            case 'https:':
+                //remote file over http or https
+                history.replaceState({}, "", `/${website_subdir}/`);
+                break;
+            case 'file:':
+                //local file
+                history.replaceState({}, "", `index.html`);
+                break;
+            default:
+            //some other protocol
+        }
     }
     share_marker.remove();
 }
