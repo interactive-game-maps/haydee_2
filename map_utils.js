@@ -51,7 +51,7 @@ function getPopupMedia(feature, list_id, html) {
     return html;
 }
 
-function add_checkbox(feature, list, list_id, layer_group) {
+function addCheckbox(feature, list, list_id, layer_group) {
     if (!document.getElementById(list_id + ':' + feature.properties.id)) {
         var list_entry = document.createElement('li');
         list_entry.className = 'flex-grow-1';
@@ -80,7 +80,7 @@ function add_checkbox(feature, list, list_id, layer_group) {
             }
 
             // rewrite url for easy copy pasta
-            history.replaceState({}, "", "?list=" + list_id + "&id=" + feature.properties.id);
+            setHistoryState(list_id, feature.properties.id);
         });
         locate_button.className = 'flex-grow-0';
 
@@ -131,7 +131,7 @@ function addPopup(feature, layer, args = {}) {
     // only bind for markers
     if (feature.geometry.type == "Point") {
         if (params.create_checkbox) {
-            add_checkbox(feature, params.list, params.list_id, params.layer_group);
+            addCheckbox(feature, params.list, params.list_id, params.layer_group);
         }
 
         layer.bindPopup(() => {
@@ -200,11 +200,11 @@ function addPopup(feature, layer, args = {}) {
 
             layer.on('popupopen', (event) => {
                 // rewrite url for easy copy pasta
-                history.replaceState({}, "", "?list=" + params.list_id + "&id=" + feature.properties.id);
+                setHistoryState(params.list_id, feature.properties.id);
             });
 
             layer.on('popupclose', (event) => {
-                history.replaceState({}, "", `/${website_subdir}/`);
+                setHistoryState();
             });
 
             return html;
@@ -250,11 +250,11 @@ function zoomToFeature(list, id) {
     });
 }
 
-function hide_custom_layer_controls() {
+function hideCustomLayerControls() {
     map.removeControl(custom_layer_controls);
 }
 
-function show_custom_layer_controls() {
+function showCustomLayerControls() {
     if (Object.keys(custom_layers).length > 0) {
         // Don't know why I have to create a new control but adding the old one is giving me an exception
         custom_layer_controls = new L.control.layers(null, custom_layers, {
@@ -264,7 +264,7 @@ function show_custom_layer_controls() {
     }
 }
 
-function create_custom_layer() {
+function createCustomLayer() {
     // Create new layer
     var layer_id = prompt("Unique new layer name");
 
@@ -288,7 +288,7 @@ function create_custom_layer() {
     return true;
 }
 
-function create_editable_popup(layer) {
+function createEditablePopup(layer) {
     layer.bindPopup(() => {
         var html = document.createElement('div');
 
@@ -505,7 +505,32 @@ function setColumnCount(group, list) {
 }
 
 function getCustomMarker(icon_id, mode = "normal") {
-    if (icon_id) {
+    if (!icon_id) {
+        return L.divIcon({
+            className: 'map-marker',
+            html: `
+            <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
+            `,
+            iconSize: [25, 41],
+            popupAnchor: [1, -34],
+            iconAnchor: [12, 41],
+            tooltipAnchor: [16, -28]
+        });
+    }
+
+    if (icon_id.startsWith('fa-')) {
+        return L.divIcon({
+            className: 'map-marker',
+            html: `
+            <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
+            <i class="fas ${icon_id} map-marker-foreground"></i>
+            `,
+            iconSize: [25, 41],
+            popupAnchor: [1, -34],
+            iconAnchor: [12, 41],
+            tooltipAnchor: [16, -28]
+        });
+    } else if (icon_id.length > 2) {
         return L.divIcon({
             className: 'map-marker',
             html: `
@@ -517,15 +542,40 @@ function getCustomMarker(icon_id, mode = "normal") {
             iconAnchor: [12, 41],
             tooltipAnchor: [16, -28]
         });
-    }
-    return L.divIcon({
-        className: 'map-marker',
-        html: `
+    } else if (icon_id.length < 3) {
+        return L.divIcon({
+            className: 'map-marker',
+            html: `
             <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
+            <p class="two-symbol map-marker-foreground">${icon_id}</p>
             `,
-        iconSize: [25, 41],
-        popupAnchor: [1, -34],
-        iconAnchor: [12, 41],
-        tooltipAnchor: [16, -28]
-    });
+            iconSize: [25, 41],
+            popupAnchor: [1, -34],
+            iconAnchor: [12, 41],
+            tooltipAnchor: [16, -28]
+        });
+    } else if (icon_id.length < 2) {
+        return L.divIcon({
+            className: 'map-marker',
+            html: `
+            <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
+            <p class="single-symbol map-marker-foreground">${icon_id}</p>
+            `,
+            iconSize: [25, 41],
+            popupAnchor: [1, -34],
+            iconAnchor: [12, 41],
+            tooltipAnchor: [16, -28]
+        });
+    }
+}
+
+function setHistoryState(list_id = undefined, marker_id = undefined) {
+    if (list_id && marker_id) {
+        history.replaceState({}, "", `?list=${list_id}&id=${marker_id}`);
+    } else if (list_id) {
+        history.replaceState({}, "", `?list=${list_id}`);
+    } else {
+        history.replaceState({}, "", `/${website_subdir}/`);
+    }
+    share_marker.remove();
 }
