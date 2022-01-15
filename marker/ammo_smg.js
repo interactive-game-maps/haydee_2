@@ -47,7 +47,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "4",
-                "image_id": "3",
+                "image_id": "ammo_smg/3",
                 "description": "Softcore:\t\t20\nHardcore:\t10"
             },
             "geometry": {
@@ -76,7 +76,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "6",
-                "image_id": "5",
+                "image_id": "ammo_smg/5",
                 "description": "Softcore:\t\t10\nHardcore:\t5"
             },
             "geometry": {
@@ -91,7 +91,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "7",
-                "image_id": "5",
+                "image_id": "ammo_smg/5",
                 "description": "Softcore:\t\t15\nHardcore:\t5"
             },
             "geometry": {
@@ -134,7 +134,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "10",
-                "case_image_id": "N7_C_AS",
+                "image_id": "cases/N7_C_AS",
                 "description": "Needs lockpick\nSoftcore:\t\t30\nHardcore:\t20"
             },
             "geometry": {
@@ -149,7 +149,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "11",
-                "case_image_id": "N7_C_MLCK",
+                "image_id": "cases/N7_C_MLCK",
                 "description": "Needs lockpick\nSoftcore:\t\t30\nHardcore:\t20"
             },
             "geometry": {
@@ -164,7 +164,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "12",
-                "case_image_id": "N7_C_SBRK",
+                "image_id": "cases/N7_C_SBRK",
                 "description": "Needs lockpick\nSoftcore:\t\t30\nHardcore:\t20"
             },
             "geometry": {
@@ -179,7 +179,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "13",
-                "case_image_id": "N7_C_SHGR",
+                "image_id": "cases/N7_C_SHGR",
                 "description": "Needs lockpick\nSoftcore:\t\t30\nHardcore:\t20"
             },
             "geometry": {

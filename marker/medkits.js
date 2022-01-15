@@ -232,7 +232,7 @@ var medkits = {
             "type": "Feature",
             "properties": {
                 "id": "18",
-                "case_image_id": "N7_C_THM",
+                "image_id": "cases/N7_C_THM",
                 "description": "Needs lockpick"
             },
             "geometry": {
@@ -247,7 +247,7 @@ var medkits = {
             "type": "Feature",
             "properties": {
                 "id": "19",
-                "case_image_id": "N7_C_EENG",
+                "image_id": "cases/N7_C_EENG",
                 "description": "Needs lockpick\nSoftcore:\t\t2\nHardcore:\t1"
             },
             "geometry": {

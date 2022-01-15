@@ -33,7 +33,7 @@ var ammo_magnum = {
             "type": "Feature",
             "properties": {
                 "id": "3",
-                "case_image_id": "N7_C_AACC",
+                "image_id": "cases/N7_C_AACC",
                 "description": "Needs lockpick\nSoftcore:\t\t10 Magnum ammo\nHardcore:\t5 Magnum ammo"
             },
             "geometry": {
@@ -48,7 +48,7 @@ var ammo_magnum = {
             "type": "Feature",
             "properties": {
                 "id": "4",
-                "case_image_id": "N7_C_AHM",
+                "image_id": "cases/N7_C_AHM",
                 "description": "Needs lockpick\nSoftcore only!\nSoftcore:\t\t10"
             },
             "geometry": {
@@ -63,7 +63,7 @@ var ammo_magnum = {
             "type": "Feature",
             "properties": {
                 "id": "5",
-                "case_image_id": "N7_C_EST",
+                "image_id": "cases/N7_C_EST",
                 "description": "Needs lockpick\nSoftcore only!\nSoftcore:\t\t10"
             },
             "geometry": {
@@ -78,7 +78,7 @@ var ammo_magnum = {
             "type": "Feature",
             "properties": {
                 "id": "6",
-                "case_image_id": "N7_C_HAT",
+                "image_id": "cases/N7_C_HAT",
                 "description": "Needs lockpick\nSoftcore:\t\t10 Magnum ammo\nHardcore:\t5 Magnum ammo"
             },
             "geometry": {
@@ -93,7 +93,7 @@ var ammo_magnum = {
             "type": "Feature",
             "properties": {
                 "id": "7",
-                "case_image_id": "N7_C_MMRG",
+                "image_id": "cases/N7_C_MMRG",
                 "description": "Needs lockpick\nSoftcore only!\nSoftcore:\t\t10"
             },
             "geometry": {
@@ -108,7 +108,7 @@ var ammo_magnum = {
             "type": "Feature",
             "properties": {
                 "id": "8",
-                "case_image_id": "N7_C_SSRV",
+                "image_id": "cases/N7_C_SSRV",
                 "description": "Needs lockpick\nSoftcore:\t\t10 Magnum ammo\nHardcore:\t5 Magnum ammo"
             },
             "geometry": {
@@ -123,7 +123,7 @@ var ammo_magnum = {
             "type": "Feature",
             "properties": {
                 "id": "9",
-                "case_image_id": "N7_C_TRD",
+                "image_id": "cases/N7_C_TRD",
                 "description": "Needs lockpick\nSoftcore:\t\t10 Magnum ammo\nHardcore:\t5 Magnum ammo"
             },
             "geometry": {

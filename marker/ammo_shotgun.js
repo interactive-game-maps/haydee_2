@@ -75,7 +75,7 @@ var ammo_shotgun = {
             "type": "Feature",
             "properties": {
                 "id": "6",
-                "case_image_id": "N7_C_AADM",
+                "image_id": "cases/N7_C_AADM",
                 "description": "Needs lockpick\nSoftcore:\t\t10\nHardcore:\t5"
             },
             "geometry": {
@@ -90,7 +90,7 @@ var ammo_shotgun = {
             "type": "Feature",
             "properties": {
                 "id": "7",
-                "case_image_id": "N7_C_AT",
+                "image_id": "cases/N7_C_AT",
                 "description": "Needs lockpick\nSoftcore:\t\t10\nHardcore:\t5"
             },
             "geometry": {
@@ -105,7 +105,7 @@ var ammo_shotgun = {
             "type": "Feature",
             "properties": {
                 "id": "8",
-                "case_image_id": "N7_C_HBAR",
+                "image_id": "cases/N7_C_HBAR",
                 "description": "Needs lockpick\nSoftcore:\t\t10\nHardcore:\t5"
             },
             "geometry": {
@@ -120,7 +120,7 @@ var ammo_shotgun = {
             "type": "Feature",
             "properties": {
                 "id": "9",
-                "case_image_id": "N7_C_MPH",
+                "image_id": "cases/N7_C_MPH",
                 "description": "Needs lockpick\nSoftcore only!\nSoftcore:\t\t10"
             },
             "geometry": {
@@ -135,7 +135,7 @@ var ammo_shotgun = {
             "type": "Feature",
             "properties": {
                 "id": "10",
-                "case_image_id": "N7_C_TEL",
+                "image_id": "cases/N7_C_TEL",
                 "description": "Needs lockpick\nSoftcore:\t\t10\nHardcore:\t5"
             },
             "geometry": {

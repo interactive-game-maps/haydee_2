@@ -244,7 +244,7 @@ var floppy_disks = {
             "type": "Feature",
             "properties": {
                 "id": "19",
-                "case_image_id": "N7_C_AHM",
+                "image_id": "cases/N7_C_AHM",
                 "description": "Needs lockpick"
             },
             "geometry": {
@@ -259,7 +259,7 @@ var floppy_disks = {
             "type": "Feature",
             "properties": {
                 "id": "20",
-                "case_image_id": "N7_C_EST",
+                "image_id": "cases/N7_C_EST",
                 "description": "Needs lockpick\n2 Floppy disks"
             },
             "geometry": {
@@ -274,7 +274,7 @@ var floppy_disks = {
             "type": "Feature",
             "properties": {
                 "id": "21",
-                "case_image_id": "N7_C_MMRG",
+                "image_id": "cases/N7_C_MMRG",
                 "description": "Needs lockpick"
             },
             "geometry": {
@@ -289,7 +289,7 @@ var floppy_disks = {
             "type": "Feature",
             "properties": {
                 "id": "22",
-                "case_image_id": "N7_C_MPH",
+                "image_id": "cases/N7_C_MPH",
                 "description": "Needs lockpick\n2 Floppy disks"
             },
             "geometry": {
