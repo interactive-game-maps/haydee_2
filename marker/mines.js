@@ -364,8 +364,8 @@ var mines = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    8.375,
-                    -74.232422
+                    5.431640625,
+                    -79.20703125
                 ]
             }
         },
