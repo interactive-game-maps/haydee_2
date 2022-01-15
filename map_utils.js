@@ -521,7 +521,7 @@ function getCustomMarker(icon_id, mode = "normal") {
             iconSize: [25, 41],
             popupAnchor: [1, -34],
             iconAnchor: [12, 41],
-            tooltipAnchor: [16, -28]
+            tooltipAnchor: [0, 0]
         });
     }
 
@@ -535,7 +535,7 @@ function getCustomMarker(icon_id, mode = "normal") {
             iconSize: [25, 41],
             popupAnchor: [1, -34],
             iconAnchor: [12, 41],
-            tooltipAnchor: [16, -28]
+            tooltipAnchor: [0, 0]
         });
     } else if (icon_id.length > 2) {
         return L.divIcon({
@@ -547,7 +547,7 @@ function getCustomMarker(icon_id, mode = "normal") {
             iconSize: [25, 41],
             popupAnchor: [1, -34],
             iconAnchor: [12, 41],
-            tooltipAnchor: [16, -28]
+            tooltipAnchor: [0, 0]
         });
     } else if (icon_id.length < 3) {
         return L.divIcon({
@@ -559,7 +559,7 @@ function getCustomMarker(icon_id, mode = "normal") {
             iconSize: [25, 41],
             popupAnchor: [1, -34],
             iconAnchor: [12, 41],
-            tooltipAnchor: [16, -28]
+            tooltipAnchor: [0, 0]
         });
     } else if (icon_id.length < 2) {
         return L.divIcon({
@@ -571,7 +571,7 @@ function getCustomMarker(icon_id, mode = "normal") {
             iconSize: [25, 41],
             popupAnchor: [1, -34],
             iconAnchor: [12, 41],
-            tooltipAnchor: [16, -28]
+            tooltipAnchor: [0, 0]
         });
     }
 }
