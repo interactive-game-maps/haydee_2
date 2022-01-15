@@ -5,6 +5,7 @@ var ammo_magnum = {
             "type": "Feature",
             "properties": {
                 "id": "1",
+                "image_id": "1",
                 "description": "Softcore:\t\t10\nHardcore:\t5"
             },
             "geometry": {
@@ -19,6 +20,7 @@ var ammo_magnum = {
             "type": "Feature",
             "properties": {
                 "id": "2",
+                "image_id": "2",
                 "description": "Softcore:\t\t10\nHardcore:\t10"
             },
             "geometry": {

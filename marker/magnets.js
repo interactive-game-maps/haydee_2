@@ -4,7 +4,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_ALX"
+                "id": "N7_ALX",
+                "image_id": "N7_ALX"
             },
             "geometry": {
                 "type": "Point",
@@ -17,7 +18,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_BNT"
+                "id": "N7_BNT",
+                "image_id": "N7_BNT"
             },
             "geometry": {
                 "type": "Point",
@@ -30,7 +32,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_CLM"
+                "id": "N7_CLM",
+                "image_id": "N7_CLM"
             },
             "geometry": {
                 "type": "Point",
@@ -43,7 +46,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_CMY"
+                "id": "N7_CMY",
+                "image_id": "N7_CMY"
             },
             "geometry": {
                 "type": "Point",
@@ -56,7 +60,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_CNL"
+                "id": "N7_CNL",
+                "image_id": "N7_CNL"
             },
             "geometry": {
                 "type": "Point",
@@ -70,6 +75,7 @@ var magnets = {
             "type": "Feature",
             "properties": {
                 "id": "N7_CRI",
+                "image_id": "N7_CRI",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -83,7 +89,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_CTR"
+                "id": "N7_CTR",
+                "image_id": "N7_CTR"
             },
             "geometry": {
                 "type": "Point",
@@ -97,6 +104,7 @@ var magnets = {
             "type": "Feature",
             "properties": {
                 "id": "N7_DVA",
+                "image_id": "N7_DVA",
                 "description": "Missable"
             },
             "geometry": {
@@ -110,7 +118,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_HLN"
+                "id": "N7_HLN",
+                "image_id": "N7_HLN"
             },
             "geometry": {
                 "type": "Point",
@@ -123,7 +132,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_HRH"
+                "id": "N7_HRH",
+                "image_id": "N7_HRH"
             },
             "geometry": {
                 "type": "Point",
@@ -136,7 +146,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_HRK"
+                "id": "N7_HRK",
+                "image_id": "N7_HRK"
             },
             "geometry": {
                 "type": "Point",
@@ -149,7 +160,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_JLL"
+                "id": "N7_JLL",
+                "image_id": "N7_JLL"
             },
             "geometry": {
                 "type": "Point",
@@ -162,7 +174,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_LLA"
+                "id": "N7_LLA",
+                "image_id": "N7_LLA"
             },
             "geometry": {
                 "type": "Point",
@@ -175,7 +188,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_LRA"
+                "id": "N7_LRA",
+                "image_id": "N7_LRA"
             },
             "geometry": {
                 "type": "Point",
@@ -189,6 +203,7 @@ var magnets = {
             "type": "Feature",
             "properties": {
                 "id": "N7_LTN",
+                "image_id": "N7_LTN",
                 "description": "Hardcore only!"
             },
             "geometry": {
@@ -202,7 +217,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_MRL"
+                "id": "N7_MRL",
+                "image_id": "N7_MRL"
             },
             "geometry": {
                 "type": "Point",
@@ -215,7 +231,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_MTK"
+                "id": "N7_MTK",
+                "image_id": "N7_MTK"
             },
             "geometry": {
                 "type": "Point",
@@ -228,7 +245,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_NLN"
+                "id": "N7_NLN",
+                "image_id": "N7_NLN"
             },
             "geometry": {
                 "type": "Point",
@@ -242,6 +260,7 @@ var magnets = {
             "type": "Feature",
             "properties": {
                 "id": "N7_NRK",
+                "image_id": "N7_NRK",
                 "description": "Hardcore only!"
             },
             "geometry": {
@@ -256,6 +275,7 @@ var magnets = {
             "type": "Feature",
             "properties": {
                 "id": "N7_QET",
+                "image_id": "N7_QET",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -269,7 +289,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_REI"
+                "id": "N7_REI",
+                "image_id": "N7_REI"
             },
             "geometry": {
                 "type": "Point",
@@ -283,6 +304,7 @@ var magnets = {
             "type": "Feature",
             "properties": {
                 "id": "N7_RYN",
+                "image_id": "N7_RYN",
                 "description": "Hardcore only!"
             },
             "geometry": {
@@ -296,7 +318,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_SHN"
+                "id": "N7_SHN",
+                "image_id": "N7_SHN"
             },
             "geometry": {
                 "type": "Point",
@@ -309,7 +332,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_SLN"
+                "id": "N7_SLN",
+                "image_id": "N7_SLN"
             },
             "geometry": {
                 "type": "Point",
@@ -322,7 +346,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_SNC"
+                "id": "N7_SNC",
+                "image_id": "N7_SNC"
             },
             "geometry": {
                 "type": "Point",
@@ -335,7 +360,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_TBY"
+                "id": "N7_TBY",
+                "image_id": "N7_TBY"
             },
             "geometry": {
                 "type": "Point",
@@ -348,7 +374,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_TRC"
+                "id": "N7_TRC",
+                "image_id": "N7_TRC"
             },
             "geometry": {
                 "type": "Point",
@@ -361,7 +388,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_TRS"
+                "id": "N7_TRS",
+                "image_id": "N7_TRS"
             },
             "geometry": {
                 "type": "Point",
@@ -375,6 +403,7 @@ var magnets = {
             "type": "Feature",
             "properties": {
                 "id": "N7_YKO",
+                "image_id": "N7_YKO",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -388,7 +417,8 @@ var magnets = {
         {
             "type": "Feature",
             "properties": {
-                "id": "N7_YRC"
+                "id": "N7_YRC",
+                "image_id": "N7_YRC"
             },
             "geometry": {
                 "type": "Point",

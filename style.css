@@ -98,23 +98,17 @@ html, body, #map {
 }
 
 .map-marker-foreground {
-    position: absolute;
-    top: 3px;
-    right: 3px;
     width: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
-.map-marker-foreground.fas {
-    top: 6px;
-    right: -1px;
-}
-
-.map-marker-foreground.single-symbol {
-    top: -7px;
-    right: -3px;
-}
-
-.map-marker-foreground.two-symbol {
-    top: -7px;
-    right: -2px;
+.map-marker-foreground-wrapper {
+    display: table;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
 }

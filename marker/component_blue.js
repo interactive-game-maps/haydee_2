@@ -5,7 +5,8 @@ var component_blue = {
             "type": "Feature",
             "properties": {
                 "description": "In Storage",
-                "id": "1"
+                "id": "1",
+                "image_id": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -19,6 +20,7 @@ var component_blue = {
             "type": "Feature",
             "properties": {
                 "id": "2",
+                "image_id": "2",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -33,6 +35,7 @@ var component_blue = {
             "type": "Feature",
             "properties": {
                 "id": "3",
+                "image_id": "3",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -46,7 +49,8 @@ var component_blue = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4"
+                "id": "4",
+                "image_id": "4"
             },
             "geometry": {
                 "type": "Point",
@@ -59,7 +63,8 @@ var component_blue = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5"
+                "id": "5",
+                "image_id": "5"
             },
             "geometry": {
                 "type": "Point",
@@ -73,6 +78,7 @@ var component_blue = {
             "type": "Feature",
             "properties": {
                 "id": "6",
+                "image_id": "6",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -86,7 +92,8 @@ var component_blue = {
         {
             "type": "Feature",
             "properties": {
-                "id": "7"
+                "id": "7",
+                "image_id": "7"
             },
             "geometry": {
                 "type": "Point",
@@ -99,7 +106,8 @@ var component_blue = {
         {
             "type": "Feature",
             "properties": {
-                "id": "8"
+                "id": "8",
+                "image_id": "8"
             },
             "geometry": {
                 "type": "Point",
@@ -113,6 +121,7 @@ var component_blue = {
             "type": "Feature",
             "properties": {
                 "id": "9",
+                "image_id": "9",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -126,7 +135,8 @@ var component_blue = {
         {
             "type": "Feature",
             "properties": {
-                "id": "10"
+                "id": "10",
+                "image_id": "10"
             },
             "geometry": {
                 "type": "Point",

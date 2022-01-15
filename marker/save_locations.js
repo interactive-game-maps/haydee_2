@@ -4,7 +4,8 @@ var save_locations = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Security"
+                "id": "Security",
+                "image_id": "Security"
             },
             "geometry": {
                 "type": "Point",
@@ -17,7 +18,8 @@ var save_locations = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Administrative 2"
+                "id": "Administrative 2",
+                "image_id": "Administrative 2"
             },
             "geometry": {
                 "type": "Point",
@@ -30,7 +32,8 @@ var save_locations = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Administrative"
+                "id": "Administrative",
+                "image_id": "Administrative"
             },
             "geometry": {
                 "type": "Point",
@@ -43,7 +46,8 @@ var save_locations = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Habitat"
+                "id": "Habitat",
+                "image_id": "Habitat"
             },
             "geometry": {
                 "type": "Point",
@@ -56,7 +60,8 @@ var save_locations = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Engineering L2"
+                "id": "Engineering L2",
+                "image_id": "Engineering L2"
             },
             "geometry": {
                 "type": "Point",
@@ -69,7 +74,8 @@ var save_locations = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Medical"
+                "id": "Medical",
+                "image_id": "Medical"
             },
             "geometry": {
                 "type": "Point",
@@ -82,7 +88,8 @@ var save_locations = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Medical 2"
+                "id": "Medical 2",
+                "image_id": "Medical 2"
             },
             "geometry": {
                 "type": "Point",
@@ -95,7 +102,8 @@ var save_locations = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Engineering L1"
+                "id": "Engineering L1",
+                "image_id": "Engineering L1"
             },
             "geometry": {
                 "type": "Point",
@@ -108,7 +116,8 @@ var save_locations = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Technical L1"
+                "id": "Technical L1",
+                "image_id": "Technical L1"
             },
             "geometry": {
                 "type": "Point",
@@ -121,7 +130,8 @@ var save_locations = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Technical L2"
+                "id": "Technical L2",
+                "image_id": "Technical L2"
             },
             "geometry": {
                 "type": "Point",

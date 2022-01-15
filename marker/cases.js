@@ -5,6 +5,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_AACC",
+                "image_id": "N7_C_AACC",
                 "description": "Softcore:\t\t10 Magnum ammo\nHardcore:\t5 Magnum ammo"
             },
             "geometry": {
@@ -19,6 +20,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_AADM",
+                "image_id": "N7_C_AADM",
                 "description": "Softcore:\t\t10 Shotgun ammo\nHardcore:\t5 Shotgun ammo"
             },
             "geometry": {
@@ -33,6 +35,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_AHM",
+                "image_id": "N7_C_AHM",
                 "description": "Softcore:\t\t10 Magnum ammo\nHardcore:\t1 Floppy disk"
             },
             "geometry": {
@@ -47,6 +50,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_AS",
+                "image_id": "N7_C_AS",
                 "description": "Softcore:\t\t30 Smg ammo\nHardcore:\t20 Smg ammo"
             },
             "geometry": {
@@ -61,6 +65,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_AT",
+                "image_id": "N7_C_AT",
                 "description": "Softcore:\t\t10 Shotgun ammo\nHardcore:\t5 Shotgun ammo"
             },
             "geometry": {
@@ -75,6 +80,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_EENG",
+                "image_id": "N7_C_EENG",
                 "description": "Softcore:\t\t2 Medkit\nHardcore:\t1 Medkit"
             },
             "geometry": {
@@ -89,6 +95,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_EST",
+                "image_id": "N7_C_EST",
                 "description": "Softcore:\t\t10 Magnum ammo\nHardcore:\t2 Floppy disks"
             },
             "geometry": {
@@ -103,6 +110,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_HAT",
+                "image_id": "N7_C_HAT",
                 "description": "Softcore:\t\t10 Magnum ammo\nHardcore:\t5 Magnum ammo"
             },
             "geometry": {
@@ -117,6 +125,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_HBAR",
+                "image_id": "N7_C_HBAR",
                 "description": "Softcore:\t\t10 Shotgun ammo\nHardcore:\t5 Shotgun ammo"
             },
             "geometry": {
@@ -131,6 +140,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_MLCK",
+                "image_id": "N7_C_MLCK",
                 "description": "Softcore:\t\t30 Smg ammo\nHardcore:\t20 Smg ammo"
             },
             "geometry": {
@@ -145,6 +155,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_MMRG",
+                "image_id": "N7_C_MMRG",
                 "description": "Softcore:\t\t10 Magnum ammo\nHardcore:\t1 Floppy disk"
             },
             "geometry": {
@@ -159,6 +170,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_MPH",
+                "image_id": "N7_C_MPH",
                 "description": "Softcore:\t\t10 Shotgun ammo\nHardcore:\t2 Floppy disks"
             },
             "geometry": {
@@ -173,6 +185,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_SBRK",
+                "image_id": "N7_C_SBRK",
                 "description": "Softcore:\t\t30 Smg ammo\nHardcore:\t20 Smg ammo"
             },
             "geometry": {
@@ -187,6 +200,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_SHGR",
+                "image_id": "N7_C_SHGR",
                 "description": "Softcore:\t\t30 Smg ammo\nHardcore:\t20 Smg ammo"
             },
             "geometry": {
@@ -201,6 +215,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_SSRV",
+                "image_id": "N7_C_SSRV",
                 "description": "Softcore:\t\t10 Magnum ammo\nHardcore:\t5 Magnum ammo"
             },
             "geometry": {
@@ -215,6 +230,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_TEL",
+                "image_id": "N7_C_TEL",
                 "description": "Softcore:\t\t10 Shotgun ammo\nHardcore:\t5 Shotgun ammo"
             },
             "geometry": {
@@ -229,6 +245,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_THM",
+                "image_id": "N7_C_THM",
                 "description": "Softcore:\t\t1 Medkit\nHardcore:\t1 Medkit"
             },
             "geometry": {
@@ -243,6 +260,7 @@ var cases = {
             "type": "Feature",
             "properties": {
                 "id": "N7_C_TRD",
+                "image_id": "N7_C_TRD",
                 "description": "Missable\nSoftcore:\t\t10 Magnum ammo\nHardcore:\t5 Magnum ammo"
             },
             "geometry": {

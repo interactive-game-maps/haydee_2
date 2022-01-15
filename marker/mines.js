@@ -4,7 +4,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1"
+                "id": "1",
+                "image_id": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -17,7 +18,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2"
+                "id": "2",
+                "image_id": "2"
             },
             "geometry": {
                 "type": "Point",
@@ -30,7 +32,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3"
+                "id": "3",
+                "image_id": "3"
             },
             "geometry": {
                 "type": "Point",
@@ -43,7 +46,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4"
+                "id": "4",
+                "image_id": "4"
             },
             "geometry": {
                 "type": "Point",
@@ -56,7 +60,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5"
+                "id": "5",
+                "image_id": "5"
             },
             "geometry": {
                 "type": "Point",
@@ -69,7 +74,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "6"
+                "id": "6",
+                "image_id": "6"
             },
             "geometry": {
                 "type": "Point",
@@ -82,7 +88,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "7"
+                "id": "7",
+                "image_id": "7"
             },
             "geometry": {
                 "type": "Point",
@@ -95,7 +102,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "8"
+                "id": "8",
+                "image_id": "8"
             },
             "geometry": {
                 "type": "Point",
@@ -108,7 +116,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "9"
+                "id": "9",
+                "image_id": "9"
             },
             "geometry": {
                 "type": "Point",
@@ -122,7 +131,7 @@ var mines = {
             "type": "Feature",
             "properties": {
                 "id": "10",
-                "image_id": "mines/9"
+                "image_id": "9"
             },
             "geometry": {
                 "type": "Point",
@@ -135,7 +144,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "11"
+                "id": "11",
+                "image_id": "11"
             },
             "geometry": {
                 "type": "Point",
@@ -148,7 +158,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "12"
+                "id": "12",
+                "image_id": "12"
             },
             "geometry": {
                 "type": "Point",
@@ -161,7 +172,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "13"
+                "id": "13",
+                "image_id": "13"
             },
             "geometry": {
                 "type": "Point",
@@ -174,7 +186,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "14"
+                "id": "14",
+                "image_id": "14"
             },
             "geometry": {
                 "type": "Point",
@@ -188,7 +201,7 @@ var mines = {
             "type": "Feature",
             "properties": {
                 "id": "15",
-                "image_id": "mines/14"
+                "image_id": "14"
             },
             "geometry": {
                 "type": "Point",
@@ -202,7 +215,7 @@ var mines = {
             "type": "Feature",
             "properties": {
                 "id": "16",
-                "image_id": "mines/14"
+                "image_id": "14"
             },
             "geometry": {
                 "type": "Point",
@@ -215,7 +228,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "17"
+                "id": "17",
+                "image_id": "17"
             },
             "geometry": {
                 "type": "Point",
@@ -229,7 +243,7 @@ var mines = {
             "type": "Feature",
             "properties": {
                 "id": "18",
-                "image_id": "mines/17"
+                "image_id": "17"
             },
             "geometry": {
                 "type": "Point",
@@ -242,7 +256,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "19"
+                "id": "19",
+                "image_id": "19"
             },
             "geometry": {
                 "type": "Point",
@@ -255,7 +270,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "20"
+                "id": "20",
+                "image_id": "20"
             },
             "geometry": {
                 "type": "Point",
@@ -268,7 +284,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "21"
+                "id": "21",
+                "image_id": "21"
             },
             "geometry": {
                 "type": "Point",
@@ -281,7 +298,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "22"
+                "id": "22",
+                "image_id": "22"
             },
             "geometry": {
                 "type": "Point",
@@ -294,7 +312,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "23"
+                "id": "23",
+                "image_id": "23"
             },
             "geometry": {
                 "type": "Point",
@@ -307,7 +326,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "24"
+                "id": "24",
+                "image_id": "24"
             },
             "geometry": {
                 "type": "Point",
@@ -320,7 +340,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "25"
+                "id": "25",
+                "image_id": "25"
             },
             "geometry": {
                 "type": "Point",
@@ -333,7 +354,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "26"
+                "id": "26",
+                "image_id": "26"
             },
             "geometry": {
                 "type": "Point",
@@ -346,7 +368,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "27"
+                "id": "27",
+                "image_id": "27"
             },
             "geometry": {
                 "type": "Point",
@@ -359,7 +382,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "28"
+                "id": "28",
+                "image_id": "28"
             },
             "geometry": {
                 "type": "Point",
@@ -372,7 +396,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "29"
+                "id": "29",
+                "image_id": "29"
             },
             "geometry": {
                 "type": "Point",
@@ -385,7 +410,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "30"
+                "id": "30",
+                "image_id": "30"
             },
             "geometry": {
                 "type": "Point",
@@ -398,7 +424,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "31"
+                "id": "31",
+                "image_id": "31"
             },
             "geometry": {
                 "type": "Point",
@@ -411,7 +438,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "32"
+                "id": "32",
+                "image_id": "32"
             },
             "geometry": {
                 "type": "Point",
@@ -424,7 +452,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "33"
+                "id": "33",
+                "image_id": "33"
             },
             "geometry": {
                 "type": "Point",
@@ -437,7 +466,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "34"
+                "id": "34",
+                "image_id": "34"
             },
             "geometry": {
                 "type": "Point",
@@ -450,7 +480,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "35"
+                "id": "35",
+                "image_id": "35"
             },
             "geometry": {
                 "type": "Point",
@@ -463,7 +494,8 @@ var mines = {
         {
             "type": "Feature",
             "properties": {
-                "id": "36"
+                "id": "36",
+                "image_id": "36"
             },
             "geometry": {
                 "type": "Point",

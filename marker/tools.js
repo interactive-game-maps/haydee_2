@@ -5,6 +5,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Battery socket 1",
+                "image_id": "Battery socket 1",
                 "description": "Needs battery"
             },
             "geometry": {
@@ -19,6 +20,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Battery socket 2",
+                "image_id": "Battery socket 2",
                 "description": "Needs battery"
             },
             "geometry": {
@@ -33,6 +35,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Battery socket 3",
+                "image_id": "Battery socket 3",
                 "description": "Needs battery"
             },
             "geometry": {
@@ -47,6 +50,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Battery socket 4",
+                "image_id": "Battery socket 4",
                 "description": "Needs battery"
             },
             "geometry": {
@@ -61,6 +65,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Battery socket 5",
+                "image_id": "Battery socket 5",
                 "description": "Needs Battery"
             },
             "geometry": {
@@ -105,6 +110,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Black door 1",
+                "image_id": "Black door 1",
                 "description": "Needs black keycard"
             },
             "geometry": {
@@ -119,6 +125,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Black keycard",
+                "image_id": "Black keycard",
                 "description": "Allows access to space ship"
             },
             "geometry": {
@@ -133,6 +140,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Blue door 1",
+                "image_id": "Blue door 1",
                 "description": "Needs blue keycard, can be opened from the inside."
             },
             "geometry": {
@@ -147,6 +155,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Blue door 2",
+                "image_id": "Blue door 2",
                 "description": "Needs blue keycard"
             },
             "geometry": {
@@ -161,6 +170,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Blue door 3",
+                "image_id": "Blue door 3",
                 "description": "Needs blue keycard"
             },
             "geometry": {
@@ -175,6 +185,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Blue door 4",
+                "image_id": "Blue door 4",
                 "description": "Needs blue keycard"
             },
             "geometry": {
@@ -189,6 +200,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Blue door 5",
+                "image_id": "Blue door 5",
                 "description": "Needs blue keycard"
             },
             "geometry": {
@@ -203,6 +215,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Blue keycard",
+                "image_id": "Blue keycard",
                 "description": "Opens blue doors"
             },
             "geometry": {
@@ -217,6 +230,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Boltcutter",
+                "image_id": "Boltcutter",
                 "description": "Opens wallboxes"
             },
             "geometry": {
@@ -231,6 +245,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Bone saw",
+                "image_id": "Bone saw",
                 "description": "Cuts bones"
             },
             "geometry": {
@@ -245,6 +260,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Bracer",
+                "image_id": "Bracer",
                 "description": "Opens bracer door"
             },
             "geometry": {
@@ -259,6 +275,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Bracer door",
+                "image_id": "Bracer door",
                 "description": "Needs bracer"
             },
             "geometry": {
@@ -273,6 +290,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Button 1",
+                "image_id": "Button 1",
                 "description": "Fits in button sockets"
             },
             "geometry": {
@@ -287,6 +305,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Button 2",
+                "image_id": "Button 2",
                 "description": "Fits in button socket"
             },
             "geometry": {
@@ -301,6 +320,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Button socket 1",
+                "image_id": "Button socket 1",
                 "description": "Needs button"
             },
             "geometry": {
@@ -315,6 +335,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Core control",
+                "image_id": "Core control",
                 "description": "Activates core"
             },
             "geometry": {
@@ -329,6 +350,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Crack hole 1",
+                "image_id": "Crack hole 1",
                 "description": "Needs sledgehammer"
             },
             "geometry": {
@@ -343,6 +365,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Crowbar",
+                "image_id": "Crowbar",
                 "description": "Removes planks"
             },
             "geometry": {
@@ -357,6 +380,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Decoder",
+                "image_id": "Decoder",
                 "description": "Decodes door"
             },
             "geometry": {
@@ -371,6 +395,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Decoder door",
+                "image_id": "Decoder door",
                 "description": "Needs decoder"
             },
             "geometry": {
@@ -385,6 +410,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Door block 1",
+                "image_id": "Door block 1",
                 "description": "Needs wrench"
             },
             "geometry": {
@@ -399,6 +425,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Door block 2",
+                "image_id": "Door block 2",
                 "description": "Needs wrench"
             },
             "geometry": {
@@ -413,6 +440,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Door block 3",
+                "image_id": "Door block 3",
                 "description": "Needs wrench"
             },
             "geometry": {
@@ -427,6 +455,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Door block 4",
+                "image_id": "Door block 4",
                 "description": "Needs wrench"
             },
             "geometry": {
@@ -441,6 +470,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Emergency vent 1",
+                "image_id": "Emergency vent 1",
                 "description": "Needs plasma cutter"
             },
             "geometry": {
@@ -455,6 +485,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Emergency vent 2",
+                "image_id": "Emergency vent 2",
                 "description": "Needs plasma cutter"
             },
             "geometry": {
@@ -468,7 +499,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Flash drive"
+                "id": "Flash drive",
+                "image_id": "Flash drive"
             },
             "geometry": {
                 "type": "Point",
@@ -497,6 +529,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Flash drive socket 2",
+                "image_id": "Flash drive socket 2",
                 "description": "Needs flash drive"
             },
             "geometry": {
@@ -510,7 +543,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Flask blue"
+                "id": "Flask blue",
+                "image_id": "Flask blue"
             },
             "geometry": {
                 "type": "Point",
@@ -523,7 +557,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Flask green"
+                "id": "Flask green",
+                "image_id": "Flask green"
             },
             "geometry": {
                 "type": "Point",
@@ -536,7 +571,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Flask red"
+                "id": "Flask red",
+                "image_id": "Flask red"
             },
             "geometry": {
                 "type": "Point",
@@ -550,6 +586,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Forceps",
+                "image_id": "Forceps",
                 "description": "Reaches far"
             },
             "geometry": {
@@ -563,7 +600,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Fuse"
+                "id": "Fuse",
+                "image_id": "Fuse"
             },
             "geometry": {
                 "type": "Point",
@@ -576,7 +614,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Gas mask"
+                "id": "Gas mask",
+                "image_id": "Gas mask"
             },
             "geometry": {
                 "type": "Point",
@@ -590,6 +629,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Green door 1",
+                "image_id": "Green door 1",
                 "description": "Needs green keycard"
             },
             "geometry": {
@@ -604,6 +644,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Green door 2",
+                "image_id": "Green door 2",
                 "description": "Needs green keycard"
             },
             "geometry": {
@@ -618,6 +659,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Green door 3",
+                "image_id": "Green door 3",
                 "description": "Needs green keycard"
             },
             "geometry": {
@@ -632,6 +674,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Green door 4",
+                "image_id": "Green door 4",
                 "description": "Needs green keycard"
             },
             "geometry": {
@@ -646,6 +689,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Green keycard",
+                "image_id": "Green keycard",
                 "description": "Opens green doors"
             },
             "geometry": {
@@ -660,6 +704,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Hand 1",
+                "image_id": "Hand 1",
                 "description": "Needs saw\nOpens handscanner door"
             },
             "geometry": {
@@ -674,6 +719,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Hand 2",
+                "image_id": "Hand 2",
                 "description": "Needs saw\nOpens handscanner door"
             },
             "geometry": {
@@ -688,6 +734,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Handscanner door",
+                "image_id": "Handscanner door",
                 "description": "Needs hand"
             },
             "geometry": {
@@ -702,6 +749,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Injector",
+                "image_id": "Injector",
                 "description": "Injects agent into the ventilation system"
             },
             "geometry": {
@@ -716,6 +764,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Jack",
+                "image_id": "Jack",
                 "description": "Needs jack grip"
             },
             "geometry": {
@@ -730,6 +779,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Jack grip",
+                "image_id": "Jack grip",
                 "description": "Allows to use the jack"
             },
             "geometry": {
@@ -743,7 +793,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Jammer"
+                "id": "Jammer",
+                "image_id": "Jammer"
             },
             "geometry": {
                 "type": "Point",
@@ -757,6 +808,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Jammer socket 1",
+                "image_id": "Jammer socket 1",
                 "description": "Needs jammer"
             },
             "geometry": {
@@ -771,6 +823,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Jammer socket 2",
+                "image_id": "Jammer socket 2",
                 "description": "Needs jammer"
             },
             "geometry": {
@@ -785,6 +838,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Jammer socket 4",
+                "image_id": "Jammer socket 4",
                 "description": "Needs jammer"
             },
             "geometry": {
@@ -799,6 +853,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Jammer socket 5",
+                "image_id": "Jammer socket 5",
                 "description": "Needs jammer"
             },
             "geometry": {
@@ -813,6 +868,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Knife",
+                "image_id": "Knife",
                 "description": "Cuts tape"
             },
             "geometry": {
@@ -827,6 +883,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Lockpick",
+                "image_id": "Lockpick",
                 "description": "Opens cases"
             },
             "geometry": {
@@ -840,7 +897,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Magnum"
+                "id": "Magnum",
+                "image_id": "Magnum"
             },
             "geometry": {
                 "type": "Point",
@@ -854,6 +912,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Agent mixer",
+                "image_id": "Agent mixer",
                 "description": "Needs three flasks"
             },
             "geometry": {
@@ -868,6 +927,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Orange door 1",
+                "image_id": "Orange door 1",
                 "description": "Nees orange keycard"
             },
             "geometry": {
@@ -882,6 +942,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Orange door 2",
+                "image_id": "Orange door 2",
                 "description": "Needs orange keycard"
             },
             "geometry": {
@@ -896,6 +957,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Orange door 3",
+                "image_id": "Orange door 3",
                 "description": "Needs orange keycard"
             },
             "geometry": {
@@ -910,6 +972,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Orange door 4",
+                "image_id": "Orange door 4",
                 "description": "Needs orange keycard"
             },
             "geometry": {
@@ -924,6 +987,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Orange door 5",
+                "image_id": "Orange door 5",
                 "description": "Needs orange keycard"
             },
             "geometry": {
@@ -938,6 +1002,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Orange keycard",
+                "image_id": "Orange keycard",
                 "description": "Opens doors"
             },
             "geometry": {
@@ -952,6 +1017,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Pink door 1",
+                "image_id": "Pink door 1",
                 "description": "Needs pink keycard"
             },
             "geometry": {
@@ -966,6 +1032,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Pink door 2",
+                "image_id": "Pink door 2",
                 "description": "Needs pink keycard"
             },
             "geometry": {
@@ -980,6 +1047,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Pink door 3",
+                "image_id": "Pink door 3",
                 "description": "Needs pink keycard"
             },
             "geometry": {
@@ -994,6 +1062,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Pink keycard",
+                "image_id": "Pink keycard",
                 "description": "Opens pink doors"
             },
             "geometry": {
@@ -1007,7 +1076,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Pistol"
+                "id": "Pistol",
+                "image_id": "Pistol"
             },
             "geometry": {
                 "type": "Point",
@@ -1021,6 +1091,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Planks 1",
+                "image_id": "Planks 1",
                 "description": "Needs crowbar"
             },
             "geometry": {
@@ -1035,6 +1106,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Planks 2",
+                "image_id": "Planks 2",
                 "description": "Needs crowbar"
             },
             "geometry": {
@@ -1049,6 +1121,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Planks 3",
+                "image_id": "Planks 3",
                 "description": "Needs crowbar"
             },
             "geometry": {
@@ -1063,6 +1136,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Planks 4",
+                "image_id": "Planks 4",
                 "description": "Needs crowbar"
             },
             "geometry": {
@@ -1076,7 +1150,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Plasma cutter"
+                "id": "Plasma cutter",
+                "image_id": "Plasma cutter"
             },
             "geometry": {
                 "type": "Point",
@@ -1090,6 +1165,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Plier",
+                "image_id": "Plier",
                 "description": "Defuses mines"
             },
             "geometry": {
@@ -1104,6 +1180,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Pouch 1",
+                "image_id": "Pouch 1",
                 "description": "Gives more inventory space"
             },
             "geometry": {
@@ -1118,6 +1195,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Pouch 2",
+                "image_id": "Pouch 2",
                 "description": "Give more inventory space"
             },
             "geometry": {
@@ -1132,6 +1210,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Pouch 3",
+                "image_id": "Pouch 3",
                 "description": "Gives more inventory space"
             },
             "geometry": {
@@ -1146,6 +1225,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Pouch 4",
+                "image_id": "Pouch 4",
                 "description": "Gives more inventory space"
             },
             "geometry": {
@@ -1159,7 +1239,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Pressure tank"
+                "id": "Pressure tank",
+                "image_id": "Pressure tank"
             },
             "geometry": {
                 "type": "Point",
@@ -1173,6 +1254,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Pressure tank socket",
+                "image_id": "Pressure tank socket",
                 "description": "Needs pressure tank"
             },
             "geometry": {
@@ -1187,6 +1269,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Remote control",
+                "image_id": "Remote control",
                 "description": "Activates remote device"
             },
             "geometry": {
@@ -1201,6 +1284,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Remote device 1",
+                "image_id": "Remote device 1",
                 "description": "Impossible to take"
             },
             "geometry": {
@@ -1214,7 +1298,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Remote device 2"
+                "id": "Remote device 2",
+                "image_id": "Remote device 2"
             },
             "geometry": {
                 "type": "Point",
@@ -1228,6 +1313,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Screwdriver",
+                "image_id": "Screwdriver",
                 "description": "Opens vents"
             },
             "geometry": {
@@ -1241,7 +1327,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Shotgun"
+                "id": "Shotgun",
+                "image_id": "Shotgun"
             },
             "geometry": {
                 "type": "Point",
@@ -1255,6 +1342,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Sledgehammer",
+                "image_id": "Sledgehammer",
                 "description": "Breaks walls"
             },
             "geometry": {
@@ -1268,7 +1356,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "SMG"
+                "id": "SMG",
+                "image_id": "SMG"
             },
             "geometry": {
                 "type": "Point",
@@ -1282,6 +1371,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Teal door 1",
+                "image_id": "Teal door 1",
                 "description": "Needs teal keycard"
             },
             "geometry": {
@@ -1296,6 +1386,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Teal door 2",
+                "image_id": "Teal door 2",
                 "description": "Needs teal keycard"
             },
             "geometry": {
@@ -1310,6 +1401,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Teal door 3",
+                "image_id": "Teal door 3",
                 "description": "Needs teal keycard"
             },
             "geometry": {
@@ -1324,6 +1416,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Teal door 4",
+                "image_id": "Teal door 4",
                 "description": "Needs teal keycard"
             },
             "geometry": {
@@ -1338,6 +1431,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Teal door 5",
+                "image_id": "Teal door 5",
                 "description": "Needs teal keycard"
             },
             "geometry": {
@@ -1352,6 +1446,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Teal keycard",
+                "image_id": "Teal keycard",
                 "description": "Needs forceps"
             },
             "geometry": {
@@ -1366,6 +1461,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Upgrade aim 1",
+                "image_id": "Upgrade aim 1",
                 "description": "Improves weapon stability"
             },
             "geometry": {
@@ -1380,6 +1476,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Upgrade aim 2",
+                "image_id": "Upgrade aim 2",
                 "description": "Improves weapon stability"
             },
             "geometry": {
@@ -1394,6 +1491,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Upgrade clip size 1",
+                "image_id": "Upgrade clip size 1",
                 "description": "Improves weapon magazines"
             },
             "geometry": {
@@ -1408,6 +1506,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Upgrade clip size 2",
+                "image_id": "Upgrade clip size 2",
                 "description": "Improves weapon magazines"
             },
             "geometry": {
@@ -1422,6 +1521,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Upgrade damage 1",
+                "image_id": "Upgrade damage 1",
                 "description": "Improves weapon damage"
             },
             "geometry": {
@@ -1436,6 +1536,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Upgrade damage 2",
+                "image_id": "Upgrade damage 2",
                 "description": "Improves weapon damage"
             },
             "geometry": {
@@ -1450,6 +1551,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Upgrade fire rate 1",
+                "image_id": "Upgrade fire rate 1",
                 "description": "Improves weapon fire rate"
             },
             "geometry": {
@@ -1464,6 +1566,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Upgrade fire rate 2",
+                "image_id": "Upgrade fire rate 2",
                 "description": "Improves weapon fire rate"
             },
             "geometry": {
@@ -1478,6 +1581,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Valve",
+                "image_id": "Valve",
                 "description": "Fits into valve socket"
             },
             "geometry": {
@@ -1492,6 +1596,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 1",
+                "image_id": "Vent 1",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1506,6 +1611,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 2",
+                "image_id": "Vent 2",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1520,6 +1626,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 3",
+                "image_id": "Vent 3",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1534,6 +1641,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 4",
+                "image_id": "Vent 4",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1548,6 +1656,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 5",
+                "image_id": "Vent 5",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1562,6 +1671,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 6",
+                "image_id": "Vent 6",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1576,6 +1686,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 7",
+                "image_id": "Vent 7",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1590,6 +1701,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 8",
+                "image_id": "Vent 8",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1604,6 +1716,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 9",
+                "image_id": "Vent 9",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1618,6 +1731,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 10",
+                "image_id": "Vent 10",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1632,6 +1746,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 11",
+                "image_id": "Vent 11",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1646,6 +1761,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 12",
+                "image_id": "Vent 12",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1660,6 +1776,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 13",
+                "image_id": "Vent 13",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1674,6 +1791,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 14",
+                "image_id": "Vent 14",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1688,6 +1806,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 15",
+                "image_id": "Vent 15",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1702,6 +1821,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 16",
+                "image_id": "Vent 16",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1716,6 +1836,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 17",
+                "image_id": "Vent 17",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1730,6 +1851,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 18",
+                "image_id": "Vent 18",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1744,6 +1866,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 19",
+                "image_id": "Vent 19",
                 "description": "Need screwdriver"
             },
             "geometry": {
@@ -1758,6 +1881,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 20",
+                "image_id": "Vent 20",
                 "description": "Need screwdriver"
             },
             "geometry": {
@@ -1772,6 +1896,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 21",
+                "image_id": "Vent 21",
                 "description": "Need screwdriver"
             },
             "geometry": {
@@ -1786,7 +1911,8 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "description": "Need screwdriver",
-                "id": "Vent 22"
+                "id": "Vent 22",
+                "image_id": "Vent 22"
             },
             "geometry": {
                 "type": "Point",
@@ -1800,6 +1926,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 23",
+                "image_id": "Vent 23",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1814,6 +1941,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Vent 24",
+                "image_id": "Vent 24",
                 "description": "Needs screwdriver"
             },
             "geometry": {
@@ -1828,6 +1956,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Visor",
+                "image_id": "Visor",
                 "description": "Nightvision"
             },
             "geometry": {
@@ -1842,6 +1971,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Wallbox 1",
+                "image_id": "Wallbox 1",
                 "description": "Needs boltcutter"
             },
             "geometry": {
@@ -1856,6 +1986,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Wallbox 2",
+                "image_id": "Wallbox 2",
                 "description": "Needs boltcutter"
             },
             "geometry": {
@@ -1870,6 +2001,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Wallbox 3",
+                "image_id": "Wallbox 3",
                 "description": "Needs knife"
             },
             "geometry": {
@@ -1884,6 +2016,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Wallbox 4",
+                "image_id": "Wallbox 4",
                 "description": "Needs boltcutter"
             },
             "geometry": {
@@ -1898,6 +2031,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Wallbox 5",
+                "image_id": "Wallbox 5",
                 "description": "Needs boltcutter"
             },
             "geometry": {
@@ -1912,6 +2046,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Wallbox 6",
+                "image_id": "Wallbox 6",
                 "description": "Needs boltcutter"
             },
             "geometry": {
@@ -1926,6 +2061,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Wallbox 7",
+                "image_id": "Wallbox 7",
                 "description": "Needs boltcutter"
             },
             "geometry": {
@@ -1940,7 +2076,8 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "description": "Needs knife and fuse",
-                "id": "Wallbox 8"
+                "id": "Wallbox 8",
+                "image_id": "Wallbox 8"
             },
             "geometry": {
                 "type": "Point",
@@ -1954,6 +2091,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "White door 1",
+                "image_id": "White door 1",
                 "description": "Needs white keycard"
             },
             "geometry": {
@@ -1968,6 +2106,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "White keycard",
+                "image_id": "White keycard",
                 "description": "Opens white doors"
             },
             "geometry": {
@@ -1982,6 +2121,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Wrench",
+                "image_id": "Wrench",
                 "description": "Opens door blocks"
             },
             "geometry": {
@@ -1996,6 +2136,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Yellow door 1",
+                "image_id": "Yellow door 1",
                 "description": "Needs yellow keycard"
             },
             "geometry": {
@@ -2010,6 +2151,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Yellow door 2",
+                "image_id": "Yellow door 2",
                 "description": "Needs yellow keycard"
             },
             "geometry": {
@@ -2024,6 +2166,7 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "id": "Yellow keycard",
+                "image_id": "Yellow keycard",
                 "description": "Opens yellow doors"
             },
             "geometry": {

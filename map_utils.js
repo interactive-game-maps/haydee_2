@@ -511,7 +511,7 @@ function getCustomMarker(icon_id, mode = "normal") {
         return L.divIcon({
             className: 'map-marker',
             html: `
-            <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
+            <img class="map-marker-background" src="images/icons/marker_${mode}.svg" />
             `,
             iconSize: [25, 41],
             popupAnchor: [1, -34],
@@ -524,8 +524,8 @@ function getCustomMarker(icon_id, mode = "normal") {
         return L.divIcon({
             className: 'map-marker',
             html: `
-            <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
-            <i class="fas ${icon_id} map-marker-foreground"></i>
+            <img class="map-marker-background" src="images/icons/marker_${mode}.svg" />
+            <div class="map-marker-foreground-wrapper"><i class="fas ${icon_id} map-marker-foreground"></i></div>
             `,
             iconSize: [25, 41],
             popupAnchor: [1, -34],
@@ -536,8 +536,8 @@ function getCustomMarker(icon_id, mode = "normal") {
         return L.divIcon({
             className: 'map-marker',
             html: `
-                <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
-                <img class='map-marker-foreground' src='images/icons/${icon_id}.png' />
+                <img class="map-marker-background" src="images/icons/marker_${mode}.svg" />
+                <div class="map-marker-foreground-wrapper"><img class='map-marker-foreground' src='images/icons/${icon_id}.png' /></div>
                 `,
             iconSize: [25, 41],
             popupAnchor: [1, -34],
@@ -548,20 +548,8 @@ function getCustomMarker(icon_id, mode = "normal") {
         return L.divIcon({
             className: 'map-marker',
             html: `
-            <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
-            <p class="two-symbol map-marker-foreground">${icon_id}</p>
-            `,
-            iconSize: [25, 41],
-            popupAnchor: [1, -34],
-            iconAnchor: [12, 41],
-            tooltipAnchor: [0, 0]
-        });
-    } else if (icon_id.length < 2) {
-        return L.divIcon({
-            className: 'map-marker',
-            html: `
-            <img class='map-marker-background' src="images/icons/marker_${mode}.svg" />
-            <p class="single-symbol map-marker-foreground">${icon_id}</p>
+            <img class="map-marker-background" src="images/icons/marker_${mode}.svg" />
+            <div class="map-marker-foreground-wrapper"><p class="map-marker-foreground">${icon_id}</p></div>
             `,
             iconSize: [25, 41],
             popupAnchor: [1, -34],

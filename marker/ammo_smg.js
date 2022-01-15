@@ -5,6 +5,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "1",
+                "image_id": "1",
                 "description": "Softcore:\t\t30\nHardcore:\t30"
             },
             "geometry": {
@@ -19,6 +20,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "2",
+                "image_id": "2",
                 "description": "Softcore:\t\t20\nHardcore:\t10"
             },
             "geometry": {
@@ -33,6 +35,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "3",
+                "image_id": "3",
                 "description": "Softcore:\t\t20\nHardcore:\t10"
             },
             "geometry": {
@@ -62,6 +65,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "5",
+                "image_id": "5",
                 "description": "Softcore:\t\t20\nHardcore:\t10"
             },
             "geometry": {
@@ -106,6 +110,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "8",
+                "image_id": "8",
                 "description": "Softcore:\t\t20\nHardcore:\t10"
             },
             "geometry": {
@@ -120,6 +125,7 @@ var ammo_smg = {
             "type": "Feature",
             "properties": {
                 "id": "9",
+                "image_id": "9",
                 "description": "Softcore:\t\t30\nHardcore:\t20"
             },
             "geometry": {

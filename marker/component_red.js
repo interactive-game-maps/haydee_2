@@ -4,7 +4,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1"
+                "id": "1",
+                "image_id": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -17,7 +18,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2"
+                "id": "2",
+                "image_id": "2"
             },
             "geometry": {
                 "type": "Point",
@@ -30,7 +32,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3"
+                "id": "3",
+                "image_id": "3"
             },
             "geometry": {
                 "type": "Point",
@@ -43,7 +46,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4"
+                "id": "4",
+                "image_id": "4"
             },
             "geometry": {
                 "type": "Point",
@@ -57,6 +61,7 @@ var component_red = {
             "type": "Feature",
             "properties": {
                 "id": "5",
+                "image_id": "5",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -70,7 +75,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "6"
+                "id": "6",
+                "image_id": "6"
             },
             "geometry": {
                 "type": "Point",
@@ -84,6 +90,7 @@ var component_red = {
             "type": "Feature",
             "properties": {
                 "id": "7",
+                "image_id": "7",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -97,7 +104,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "8"
+                "id": "8",
+                "image_id": "8"
             },
             "geometry": {
                 "type": "Point",
@@ -110,7 +118,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "9"
+                "id": "9",
+                "image_id": "9"
             },
             "geometry": {
                 "type": "Point",
@@ -124,6 +133,7 @@ var component_red = {
             "type": "Feature",
             "properties": {
                 "id": "10",
+                "image_id": "10",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -137,7 +147,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "11"
+                "id": "11",
+                "image_id": "11"
             },
             "geometry": {
                 "type": "Point",
@@ -150,7 +161,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "12"
+                "id": "12",
+                "image_id": "12"
             },
             "geometry": {
                 "type": "Point",
@@ -163,7 +175,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "13"
+                "id": "13",
+                "image_id": "13"
             },
             "geometry": {
                 "type": "Point",
@@ -177,6 +190,7 @@ var component_red = {
             "type": "Feature",
             "properties": {
                 "id": "14",
+                "image_id": "14",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -190,7 +204,8 @@ var component_red = {
         {
             "type": "Feature",
             "properties": {
-                "id": "15"
+                "id": "15",
+                "image_id": "15"
             },
             "geometry": {
                 "type": "Point",
@@ -204,6 +219,7 @@ var component_red = {
             "type": "Feature",
             "properties": {
                 "id": "16",
+                "image_id": "16",
                 "description": "Softcore only!"
             },
             "geometry": {
@@ -218,6 +234,7 @@ var component_red = {
             "type": "Feature",
             "properties": {
                 "id": "17",
+                "image_id": "17",
                 "description": "Softcore only!"
             },
             "geometry": {

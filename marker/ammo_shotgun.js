@@ -5,6 +5,7 @@ var ammo_shotgun = {
             "type": "Feature",
             "properties": {
                 "id": "1",
+                "image_id": "1",
                 "description": "Softcore:\t\t10\nHardcore:\t10"
             },
             "geometry": {
@@ -19,6 +20,7 @@ var ammo_shotgun = {
             "type": "Feature",
             "properties": {
                 "id": "2",
+                "image_id": "2",
                 "description": "Softcore:\t\t10\nHardcore:\t5"
             },
             "geometry": {
@@ -33,6 +35,7 @@ var ammo_shotgun = {
             "type": "Feature",
             "properties": {
                 "id": "3",
+                "image_id": "3",
                 "description": "Softcore:\t\t10\nHardcore:\t5"
             },
             "geometry": {
@@ -47,6 +50,7 @@ var ammo_shotgun = {
             "type": "Feature",
             "properties": {
                 "id": "4",
+                "image_id": "4",
                 "description": "Softcore only!\nSoftcore:\t\t10"
             },
             "geometry": {
@@ -61,6 +65,7 @@ var ammo_shotgun = {
             "type": "Feature",
             "properties": {
                 "id": "5",
+                "image_id": "5",
                 "description": "Softcore only!\nSoftcore:\t\t10"
             },
             "geometry": {
