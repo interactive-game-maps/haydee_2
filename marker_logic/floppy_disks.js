@@ -11,7 +11,7 @@ var floppy_disks_group = L.markerClusterGroup({
 L.geoJSON(floppy_disks, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: getCustomMarker(floppy_disks_group_id),
+            icon: getCustomIcon(floppy_disks_group_id),
             riseOnHover: true
         });
     },

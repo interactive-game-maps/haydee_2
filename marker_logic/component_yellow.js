@@ -12,17 +12,17 @@ L.geoJSON(component_yellow, {
     pointToLayer: (feature, latlng) => {
         if ("description" in feature.properties && feature.properties.description.includes("Softcore")) {
             return L.marker(latlng, {
-                icon: getCustomMarker(component_yellow_group_id, "easy"),
+                icon: getCustomIcon(component_yellow_group_id, "easy"),
                 riseOnHover: true
             });
         } else if ("description" in feature.properties && feature.properties.description.includes("Hardcore")) {
             return L.marker(latlng, {
-                icon: getCustomMarker(component_yellow_group_id, "hard"),
+                icon: getCustomIcon(component_yellow_group_id, "hard"),
                 riseOnHover: true
             });
         } else {
             return L.marker(latlng, {
-                icon: getCustomMarker(component_yellow_group_id),
+                icon: getCustomIcon(component_yellow_group_id),
                 riseOnHover: true
             });
         }

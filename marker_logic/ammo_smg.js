@@ -12,17 +12,17 @@ L.geoJSON(ammo_smg, {
     pointToLayer: (feature, latlng) => {
         if ("description" in feature.properties && feature.properties.description.includes("Softcore only")) {
             return L.marker(latlng, {
-                icon: getCustomMarker(ammo_smg_group_id, "easy"),
+                icon: getCustomIcon(ammo_smg_group_id, "easy"),
                 riseOnHover: true
             });
         } else if ("description" in feature.properties && feature.properties.description.includes("Hardcore only")) {
             return L.marker(latlng, {
-                icon: getCustomMarker(ammo_smg_group_id, "hard"),
+                icon: getCustomIcon(ammo_smg_group_id, "hard"),
                 riseOnHover: true
             });
         } else {
             return L.marker(latlng, {
-                icon: getCustomMarker(ammo_smg_group_id),
+                icon: getCustomIcon(ammo_smg_group_id),
                 riseOnHover: true
             });
         }

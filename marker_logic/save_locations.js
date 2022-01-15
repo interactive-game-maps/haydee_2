@@ -9,7 +9,7 @@ var save_locations_group = L.markerClusterGroup({
 L.geoJSON(save_locations, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: getCustomMarker(save_locations_group_id),
+            icon: getCustomIcon(save_locations_group_id),
             riseOnHover: true
         });
     },

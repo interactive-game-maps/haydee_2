@@ -12,12 +12,12 @@ L.geoJSON(medkits, {
     pointToLayer: (feature, latlng) => {
         if ("description" in feature.properties && feature.properties.description.includes("Softcore only!")) {
             return L.marker(latlng, {
-                icon: getCustomMarker(medkits_group_id, "easy"),
+                icon: getCustomIcon(medkits_group_id, "easy"),
                 riseOnHover: true
             });
         } else {
             return L.marker(latlng, {
-                icon: getCustomMarker(medkits_group_id),
+                icon: getCustomIcon(medkits_group_id),
                 riseOnHover: true
             });
         }

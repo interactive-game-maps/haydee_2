@@ -11,7 +11,7 @@ var mines_group = L.markerClusterGroup({
 L.geoJSON(mines, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: getCustomMarker(mines_group_id),
+            icon: getCustomIcon(mines_group_id),
             riseOnHover: true
         });
     },

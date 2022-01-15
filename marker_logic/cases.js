@@ -11,7 +11,7 @@ var cases_group = L.markerClusterGroup({
 L.geoJSON(cases, {
     pointToLayer: (feature, latlng) => {
         return L.marker(latlng, {
-            icon: getCustomMarker(cases_group_id),
+            icon: getCustomIcon(cases_group_id),
             riseOnHover: true
         });
     },

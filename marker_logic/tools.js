@@ -24,271 +24,271 @@ L.geoJSON(tools, {
     pointToLayer: (feature, latlng) => {
         if (containsKeyword(feature, "Battery")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("battery"),
+                icon: getCustomIcon("battery"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Black keycard")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("keycard_black"),
+                icon: getCustomIcon("keycard_black"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "White keycard")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("keycard_white"),
+                icon: getCustomIcon("keycard_white"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Blue keycard")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("keycard_blue"),
+                icon: getCustomIcon("keycard_blue"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Orange keycard")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("keycard_orange"),
+                icon: getCustomIcon("keycard_orange"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Teal keycard")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("keycard_teal"),
+                icon: getCustomIcon("keycard_teal"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Pink keycard")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("keycard_pink"),
+                icon: getCustomIcon("keycard_pink"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Green keycard")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("keycard_green"),
+                icon: getCustomIcon("keycard_green"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Yellow keycard")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("keycard_yellow"),
+                icon: getCustomIcon("keycard_yellow"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Screwdriver")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("screwdriver"),
+                icon: getCustomIcon("screwdriver"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Wrench")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("wrench"),
+                icon: getCustomIcon("wrench"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Knife")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("knife"),
+                icon: getCustomIcon("knife"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Crowbar")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("crowbar"),
+                icon: getCustomIcon("crowbar"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Upgrade")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("upgrade"),
+                icon: getCustomIcon("upgrade"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Boltcutter")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("boltcutter"),
+                icon: getCustomIcon("boltcutter"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Jammer")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("jammer"),
+                icon: getCustomIcon("jammer"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Pouch")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("pouch"),
+                icon: getCustomIcon("pouch"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Jack")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("jack"),
+                icon: getCustomIcon("jack"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Flash")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("flash"),
+                icon: getCustomIcon("flash"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Magnum")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("magnum"),
+                icon: getCustomIcon("magnum"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Visor")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("visor"),
+                icon: getCustomIcon("visor"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "SMG")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("smg"),
+                icon: getCustomIcon("smg"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Shotgun")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("shotgun"),
+                icon: getCustomIcon("shotgun"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Plier")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("plier"),
+                icon: getCustomIcon("plier"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Agent")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("agent"),
+                icon: getCustomIcon("agent"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Cutter")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("cutter"),
+                icon: getCustomIcon("cutter"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Button")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("button"),
+                icon: getCustomIcon("button"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Valve")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("valve"),
+                icon: getCustomIcon("valve"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Fuse")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("fuse"),
+                icon: getCustomIcon("fuse"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Sledgehammer")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("sledgehammer"),
+                icon: getCustomIcon("sledgehammer"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Mask")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("gas_mask"),
+                icon: getCustomIcon("gas_mask"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Remote device")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("remote_device"),
+                icon: getCustomIcon("remote_device"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Remote control")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("remote_control"),
+                icon: getCustomIcon("remote_control"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Hand")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("hand"),
+                icon: getCustomIcon("hand"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Flask green")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("flask_green"),
+                icon: getCustomIcon("flask_green"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Flask red")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("flask_red"),
+                icon: getCustomIcon("flask_red"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Flask blue")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("flask_blue"),
+                icon: getCustomIcon("flask_blue"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Saw")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("saw"),
+                icon: getCustomIcon("saw"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Pressure tank")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("pressure_tank"),
+                icon: getCustomIcon("pressure_tank"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Decoder")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("decoder"),
+                icon: getCustomIcon("decoder"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Bracer")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("bracer"),
+                icon: getCustomIcon("bracer"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Pistol")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("pistol"),
+                icon: getCustomIcon("pistol"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Lockpick")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("lockpick"),
+                icon: getCustomIcon("lockpick"),
                 riseOnHover: true
             });
         }
         if (containsKeyword(feature, "Forceps")) {
             return L.marker(latlng, {
-                icon: getCustomMarker("forceps"),
+                icon: getCustomIcon("forceps"),
                 riseOnHover: true
             });
         }
 
         return L.marker(latlng, {
-            icon: getCustomMarker(),
+            icon: getCustomIcon(),
             riseOnHover: true
         });
     },
