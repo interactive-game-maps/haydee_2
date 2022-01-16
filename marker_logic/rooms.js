@@ -11,12 +11,15 @@ var rooms_administrative_geojson = L.geoJSON(rooms_administrative, {
                 rooms_administrative_geojson.resetStyle(e.target);
             },
             click: (e) => {
+                preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
             }
         });
 
-        layer.bindTooltip(feature.properties.id);
+        layer.bindTooltip(feature.properties.id, {
+            sticky: true
+        });
 
         saveMarker(feature, layer, {
             list_id: rooms_group_id
@@ -39,12 +42,15 @@ var rooms_engineering_geojson = L.geoJSON(rooms_engineering, {
                 rooms_engineering_geojson.resetStyle(e.target);
             },
             click: (e) => {
+                preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
             }
         });
 
-        layer.bindTooltip(feature.properties.id);
+        layer.bindTooltip(feature.properties.id, {
+            sticky: true
+        });
 
         saveMarker(feature, layer, {
             list_id: rooms_group_id
@@ -67,12 +73,15 @@ var rooms_habitat_geojson = L.geoJSON(rooms_habitat, {
                 rooms_habitat_geojson.resetStyle(e.target);
             },
             click: (e) => {
+                preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
             }
         });
 
-        layer.bindTooltip(feature.properties.id);
+        layer.bindTooltip(feature.properties.id, {
+            sticky: true
+        });
 
         saveMarker(feature, layer, {
             list_id: rooms_group_id
@@ -95,12 +104,15 @@ var rooms_medical_geojson = L.geoJSON(rooms_medical, {
                 rooms_medical_geojson.resetStyle(e.target);
             },
             click: (e) => {
+                preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
             }
         });
 
-        layer.bindTooltip(feature.properties.id);
+        layer.bindTooltip(feature.properties.id, {
+            sticky: true
+        });
 
         saveMarker(feature, layer, {
             list_id: rooms_group_id
@@ -123,12 +135,15 @@ var rooms_security_geojson = L.geoJSON(rooms_security, {
                 rooms_security_geojson.resetStyle(e.target);
             },
             click: (e) => {
+                preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
             }
         });
 
-        layer.bindTooltip(feature.properties.id);
+        layer.bindTooltip(feature.properties.id, {
+            sticky: true
+        });
 
         saveMarker(feature, layer, {
             list_id: rooms_group_id
@@ -151,12 +166,15 @@ var rooms_technical_geojson = L.geoJSON(rooms_technical, {
                 rooms_technical_geojson.resetStyle(e.target);
             },
             click: (e) => {
+                preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
             }
         });
 
-        layer.bindTooltip(feature.properties.id);
+        layer.bindTooltip(feature.properties.id, {
+            sticky: true
+        });
 
         saveMarker(feature, layer, {
             list_id: rooms_group_id

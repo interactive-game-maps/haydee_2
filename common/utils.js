@@ -148,15 +148,11 @@ function addPopup(feature, layer, args = {}) {
             layer.on('popupopen', (event) => {
                 // rewrite url for easy copy pasta
                 setHistoryState(params.list_id, feature.properties.id);
-                map.off('click', moveShareMarker);
             });
 
             layer.on('popupclose', (event) => {
+                preventShareMarker();
                 setHistoryState();
-
-                window.setTimeout(() => {
-                    map.on('click', moveShareMarker);
-                }, 300);
             });
 
             return html;
@@ -198,7 +194,7 @@ function highlightFeature(e) {
 
 function zoomToFeature(list, id) {
     map.fitBounds(getOuterBounds(list, id), {
-        maxZoom: 8
+        maxZoom: MAX_ZOOM
     });
 }
 
@@ -545,4 +541,11 @@ function setHistoryState(list_id = undefined, marker_id = undefined) {
         }
     }
     share_marker.remove();
+}
+
+function preventShareMarker() {
+    map.off('click', moveShareMarker);
+    window.setTimeout(() => {
+        map.on('click', moveShareMarker);
+    }, 300);
 }
