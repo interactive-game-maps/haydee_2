@@ -8,6 +8,8 @@ html, body, #map {
     width: 100%;
 }
 
+/* || Collectibles sidebar listing */
+
 .collectibles_list {
     list-style: none;
     padding: 0%;
@@ -97,6 +99,8 @@ html, body, #map {
     width: 100%;
 }
 
+/* || Place icons in the middle of the marker */
+
 .map-marker-foreground {
     width: 20px;
     display: table-cell;
@@ -111,4 +115,40 @@ html, body, #map {
     position: absolute;
     top: 2px;
     left: 2px;
+}
+
+/* || Firefox warning about will-change */
+
+/* https://github.com/Leaflet/Leaflet/issues/4686#issuecomment-476738312 */
+.leaflet-fade-anim .leaflet-tile,.leaflet-zoom-anim .leaflet-zoom-animated {
+    will-change: auto !important;
+}
+
+/* || Allow scrolling through sidebar tabs */
+
+.leaflet-sidebar-tabs {
+    display: flex;
+    overflow-y: scroll;
+    flex-flow: column;
+    scrollbar-width: none;
+}
+
+.leaflet-sidebar-tabs > ul {
+    flex: 1 0 auto;
+    position: unset;
+}
+
+.leaflet-sidebar-tabs > ul + ul {
+    flex: 0 0 auto;
+}
+
+/* || Styling adjustments for sidebar content */
+
+.leaflet-sidebar-header {
+    position: sticky;
+    top: 0px;
+}
+
+.leaflet-sidebar-content {
+    scrollbar-width: none;
 }
