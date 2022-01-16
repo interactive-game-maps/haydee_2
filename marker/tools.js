@@ -334,6 +334,20 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
+                "id": "Button socket 2",
+                "description": "Needs button"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.947265625,
+                    -97.27734375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "id": "Core control",
                 "image_id": "Core control",
                 "description": "Activates core"
@@ -837,8 +851,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Jammer socket 4",
-                "image_id": "Jammer socket 4",
+                "id": "Jammer socket 3",
+                "image_id": "Jammer socket 3",
                 "description": "Needs jammer"
             },
             "geometry": {
@@ -852,8 +866,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Jammer socket 5",
-                "image_id": "Jammer socket 5",
+                "id": "Jammer socket 4",
+                "image_id": "Jammer socket 4",
                 "description": "Needs jammer"
             },
             "geometry": {
@@ -1589,6 +1603,20 @@ var tools = {
                 "coordinates": [
                     20.550781,
                     -100.507812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Valve Socket",
+                "description": "Needs valve"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.2578125,
+                    -116.4609375
                 ]
             }
         },
