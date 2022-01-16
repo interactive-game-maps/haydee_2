@@ -229,9 +229,9 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Boltcutter",
-                "image_id": "Boltcutter",
-                "description": "Opens wallboxes"
+                "id": "Bolt cutter",
+                "image_id": "Bolt cutter",
+                "description": "Opens wall boxes"
             },
             "geometry": {
                 "type": "Point",
@@ -719,7 +719,7 @@ var tools = {
             "properties": {
                 "id": "Hand 1",
                 "image_id": "Hand 1",
-                "description": "Needs saw\nOpens handscanner door"
+                "description": "Needs saw\nOpens hand scanner door"
             },
             "geometry": {
                 "type": "Point",
@@ -734,7 +734,7 @@ var tools = {
             "properties": {
                 "id": "Hand 2",
                 "image_id": "Hand 2",
-                "description": "Needs saw\nOpens handscanner door"
+                "description": "Needs saw\nOpens hand scanner door"
             },
             "geometry": {
                 "type": "Point",
@@ -747,8 +747,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Handscanner door",
-                "image_id": "Handscanner door",
+                "id": "Hand scanner",
+                "image_id": "Hand scanner",
                 "description": "Needs hand"
             },
             "geometry": {
@@ -942,7 +942,7 @@ var tools = {
             "properties": {
                 "id": "Orange door 1",
                 "image_id": "Orange door 1",
-                "description": "Nees orange keycard"
+                "description": "Needs orange keycard"
             },
             "geometry": {
                 "type": "Point",
@@ -1985,7 +1985,7 @@ var tools = {
             "properties": {
                 "id": "Visor",
                 "image_id": "Visor",
-                "description": "Nightvision"
+                "description": "Provides night vision"
             },
             "geometry": {
                 "type": "Point",
@@ -1998,9 +1998,9 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Wallbox 1",
-                "image_id": "Wallbox 1",
-                "description": "Needs boltcutter"
+                "id": "Wall box 1",
+                "image_id": "Wall box 1",
+                "description": "Needs bolt cutter"
             },
             "geometry": {
                 "type": "Point",
@@ -2013,9 +2013,9 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Wallbox 2",
-                "image_id": "Wallbox 2",
-                "description": "Needs boltcutter"
+                "id": "Wall box 2",
+                "image_id": "Wall box 2",
+                "description": "Needs bolt cutter"
             },
             "geometry": {
                 "type": "Point",
@@ -2028,8 +2028,8 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Wallbox 3",
-                "image_id": "Wallbox 3",
+                "id": "Wall box 3",
+                "image_id": "Wall box 3",
                 "description": "Needs knife"
             },
             "geometry": {
@@ -2043,9 +2043,9 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Wallbox 4",
-                "image_id": "Wallbox 4",
-                "description": "Needs boltcutter"
+                "id": "Wall box 4",
+                "image_id": "Wall box 4",
+                "description": "Needs bolt cutter"
             },
             "geometry": {
                 "type": "Point",
@@ -2058,9 +2058,9 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Wallbox 5",
-                "image_id": "Wallbox 5",
-                "description": "Needs boltcutter"
+                "id": "Wall box 5",
+                "image_id": "Wall box 5",
+                "description": "Needs bolt cutter"
             },
             "geometry": {
                 "type": "Point",
@@ -2073,9 +2073,9 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Wallbox 6",
-                "image_id": "Wallbox 6",
-                "description": "Needs boltcutter"
+                "id": "Wall box 6",
+                "image_id": "Wall box 6",
+                "description": "Needs bolt cutter"
             },
             "geometry": {
                 "type": "Point",
@@ -2088,9 +2088,9 @@ var tools = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Wallbox 7",
-                "image_id": "Wallbox 7",
-                "description": "Needs boltcutter"
+                "id": "Wall box 7",
+                "image_id": "Wall box 7",
+                "description": "Needs bolt cutter"
             },
             "geometry": {
                 "type": "Point",
@@ -2104,8 +2104,8 @@ var tools = {
             "type": "Feature",
             "properties": {
                 "description": "Needs knife and fuse",
-                "id": "Wallbox 8",
-                "image_id": "Wallbox 8"
+                "id": "Wall box 8",
+                "image_id": "Wall box 8"
             },
             "geometry": {
                 "type": "Point",
