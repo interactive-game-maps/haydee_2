@@ -4,9 +4,7 @@ var component_yellow_create_checkbox = true;
 
 var component_yellow_list = createSidebarTab(component_yellow_group_id, component_yellow_group_name, `<img class="sidebar-image" src="images/icons/${component_yellow_group_id}.png" />`);
 
-var component_yellow_group = L.markerClusterGroup({
-    maxClusterRadius: 40
-});
+var component_yellow_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(component_yellow, {
     pointToLayer: (feature, latlng) => {

@@ -1,16 +1,18 @@
 var rooms_group_name = 'Rooms overview';
 var rooms_group_id = 'rooms';
 
-var rooms_group = L.markerClusterGroup();
+var rooms_group = L.featureGroup.subGroup(marker_cluster);
 
 var rooms_administrative_geojson = L.geoJSON(rooms_administrative, {
     onEachFeature: (feature, layer) => {
         layer.on({
-            mouseover: highlightFeature,
-            mouseout: (e) => {
-                rooms_administrative_geojson.resetStyle(e.target);
+            mouseover: e => {
+                highlightFeatureId(rooms_group_id, e.target.feature.properties.id)
             },
-            click: (e) => {
+            mouseout: e => {
+                highlightFeatureRemoveAll();
+            },
+            click: e => {
                 preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
@@ -33,15 +35,18 @@ var rooms_administrative_geojson = L.geoJSON(rooms_administrative, {
         };
     }
 }).addTo(rooms_group);
+geoJSONs.push(rooms_administrative_geojson);
 
 var rooms_engineering_geojson = L.geoJSON(rooms_engineering, {
     onEachFeature: (feature, layer) => {
         layer.on({
-            mouseover: highlightFeature,
-            mouseout: (e) => {
-                rooms_engineering_geojson.resetStyle(e.target);
+            mouseover: e => {
+                highlightFeatureId(rooms_group_id, e.target.feature.properties.id)
             },
-            click: (e) => {
+            mouseout: e => {
+                highlightFeatureRemoveAll();
+            },
+            click: e => {
                 preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
@@ -64,15 +69,18 @@ var rooms_engineering_geojson = L.geoJSON(rooms_engineering, {
         };
     }
 }).addTo(rooms_group);
+geoJSONs.push(rooms_engineering_geojson);
 
 var rooms_habitat_geojson = L.geoJSON(rooms_habitat, {
     onEachFeature: (feature, layer) => {
         layer.on({
-            mouseover: highlightFeature,
-            mouseout: (e) => {
-                rooms_habitat_geojson.resetStyle(e.target);
+            mouseover: e => {
+                highlightFeatureId(rooms_group_id, e.target.feature.properties.id)
             },
-            click: (e) => {
+            mouseout: e => {
+                highlightFeatureRemoveAll();
+            },
+            click: e => {
                 preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
@@ -95,15 +103,18 @@ var rooms_habitat_geojson = L.geoJSON(rooms_habitat, {
         };
     }
 }).addTo(rooms_group);
+geoJSONs.push(rooms_habitat_geojson);
 
 var rooms_medical_geojson = L.geoJSON(rooms_medical, {
     onEachFeature: (feature, layer) => {
         layer.on({
-            mouseover: highlightFeature,
-            mouseout: (e) => {
-                rooms_medical_geojson.resetStyle(e.target);
+            mouseover: e => {
+                highlightFeatureId(rooms_group_id, e.target.feature.properties.id)
             },
-            click: (e) => {
+            mouseout: e => {
+                highlightFeatureRemoveAll();
+            },
+            click: e => {
                 preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
@@ -126,15 +137,18 @@ var rooms_medical_geojson = L.geoJSON(rooms_medical, {
         };
     }
 }).addTo(rooms_group);
+geoJSONs.push(rooms_medical_geojson);
 
 var rooms_security_geojson = L.geoJSON(rooms_security, {
     onEachFeature: (feature, layer) => {
         layer.on({
-            mouseover: highlightFeature,
-            mouseout: (e) => {
-                rooms_security_geojson.resetStyle(e.target);
+            mouseover: e => {
+                highlightFeatureId(rooms_group_id, e.target.feature.properties.id)
             },
-            click: (e) => {
+            mouseout: e => {
+                highlightFeatureRemoveAll();
+            },
+            click: e => {
                 preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
@@ -157,15 +171,18 @@ var rooms_security_geojson = L.geoJSON(rooms_security, {
         };
     }
 }).addTo(rooms_group);
+geoJSONs.push(rooms_security_geojson);
 
 var rooms_technical_geojson = L.geoJSON(rooms_technical, {
     onEachFeature: (feature, layer) => {
         layer.on({
-            mouseover: highlightFeature,
-            mouseout: (e) => {
-                rooms_technical_geojson.resetStyle(e.target);
+            mouseover: e => {
+                highlightFeatureId(rooms_group_id, e.target.feature.properties.id)
             },
-            click: (e) => {
+            mouseout: e => {
+                highlightFeatureRemoveAll();
+            },
+            click: e => {
                 preventShareMarker();
                 zoomToFeature(rooms_group_id, e.target.feature.properties.id);
                 setHistoryState(rooms_group_id, e.target.feature.properties.id);
@@ -188,6 +205,7 @@ var rooms_technical_geojson = L.geoJSON(rooms_technical, {
         };
     }
 }).addTo(rooms_group);
+geoJSONs.push(rooms_technical_geojson);
 
 marker.get(rooms_group_id).set('group', rooms_group);
 marker.get(rooms_group_id).set('name', rooms_group_name);

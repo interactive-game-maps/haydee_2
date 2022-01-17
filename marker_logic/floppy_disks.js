@@ -4,9 +4,7 @@ var floppy_disks_create_checkbox = true;
 
 var floppy_disks_list = createSidebarTab(floppy_disks_group_id, floppy_disks_group_name, `<img class="sidebar-image" src="images/icons/floppy_disks.png" />`);
 
-var floppy_disks_group = L.markerClusterGroup({
-    maxClusterRadius: 40
-});
+var floppy_disks_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(floppy_disks, {
     pointToLayer: (feature, latlng) => {

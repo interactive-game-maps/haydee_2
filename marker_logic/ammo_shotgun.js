@@ -4,9 +4,7 @@ var ammo_shotgun_create_checkbox = true;
 
 var ammo_shotgun_list = createSidebarTab(ammo_shotgun_group_id, ammo_shotgun_group_name, `<img class="sidebar-image" src="images/icons/${ammo_shotgun_group_id}.png" />`)
 
-var ammo_shotgun_group = L.markerClusterGroup({
-    maxClusterRadius: 40
-});
+var ammo_shotgun_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(ammo_shotgun, {
     pointToLayer: (feature, latlng) => {

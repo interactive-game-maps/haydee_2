@@ -4,9 +4,7 @@ var magnets_create_checkbox = true;
 
 var magnets_list = createSidebarTab(magnets_group_id, magnets_group_name, `<img class="sidebar-image" src="images/icons/${magnets_group_id}.png" />`);
 
-var magnets_group = L.markerClusterGroup({
-    maxClusterRadius: 40
-});
+var magnets_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(magnets, {
     pointToLayer: (feature, latlng) => {
