@@ -4,7 +4,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Diagnostics"
+                "id": "eng_diagnostics",
+                "name": "1. Diagnostics"
             },
             "geometry": {
                 "type": "Polygon",
@@ -37,7 +38,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Packing"
+                "id": "eng_packing",
+                "name": "1. Packing"
             },
             "geometry": {
                 "type": "Polygon",
@@ -70,7 +72,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. QA"
+                "id": "eng_qa",
+                "name": "2. QA"
             },
             "geometry": {
                 "type": "Polygon",
@@ -103,7 +106,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Workshop"
+                "id": "eng_workshop",
+                "name": "2. Workshop"
             },
             "geometry": {
                 "type": "Polygon",
@@ -144,7 +148,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Migration"
+                "id": "eng_migration",
+                "name": "3. Migration"
             },
             "geometry": {
                 "type": "Polygon",
@@ -185,7 +190,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Office"
+                "id": "eng_office",
+                "name": "3. Office"
             },
             "geometry": {
                 "type": "Polygon",
@@ -234,7 +240,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Aggression L2"
+                "id": "eng_aggression",
+                "name": "4. Aggression"
             },
             "geometry": {
                 "type": "Polygon",
@@ -307,7 +314,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Utility"
+                "id": "eng_utility",
+                "name": "4. Utility"
             },
             "geometry": {
                 "type": "Polygon",
@@ -380,7 +388,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Warehouse"
+                "id": "eng_warehouse",
+                "name": "4. Warehouse"
             },
             "geometry": {
                 "type": "Polygon",
@@ -429,7 +438,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5. Projection"
+                "id": "eng_projection",
+                "name": "5. Projection"
             },
             "geometry": {
                 "type": "Polygon",
@@ -462,7 +472,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "6. Motorics"
+                "id": "eng_motorics",
+                "name": "6. Motorics"
             },
             "geometry": {
                 "type": "Polygon",
@@ -495,7 +506,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "7. Bots"
+                "id": "eng_bots",
+                "name": "7. Bots"
             },
             "geometry": {
                 "type": "Polygon",
@@ -560,7 +572,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "8. Aggression L1"
+                "id": "eng_aggression",
+                "name": "8. Aggression"
             },
             "geometry": {
                 "type": "Polygon",
@@ -593,7 +606,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "9. Repairs"
+                "id": "eng_repairs",
+                "name": "9. Repairs"
             },
             "geometry": {
                 "type": "Polygon",
@@ -626,7 +640,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "10. Robotics"
+                "id": "eng_robotics",
+                "name": "10. Robotics"
             },
             "geometry": {
                 "type": "Polygon",
@@ -659,7 +674,8 @@ var rooms_engineering = {
         {
             "type": "Feature",
             "properties": {
-                "id": "11. Injection"
+                "id": "eng_injection",
+                "name": "11. Injection"
             },
             "geometry": {
                 "type": "Polygon",
@@ -706,7 +722,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Anchor control"
+                "id": "tec_anchor",
+                "name": "1. Anchor control"
             },
             "geometry": {
                 "type": "Polygon",
@@ -739,7 +756,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Gym L2"
+                "id": "tec_gym",
+                "name": "1. Gym"
             },
             "geometry": {
                 "type": "Polygon",
@@ -772,7 +790,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Incinerator"
+                "id": "tec_incinerator",
+                "name": "1. Incinerator"
             },
             "geometry": {
                 "type": "Polygon",
@@ -829,7 +848,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Elevator control"
+                "id": "tec_elevator",
+                "name": "2. Elevator control"
             },
             "geometry": {
                 "type": "Polygon",
@@ -870,7 +890,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Gym L1"
+                "id": "tec_gym",
+                "name": "2. Gym"
             },
             "geometry": {
                 "type": "Polygon",
@@ -903,7 +924,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Stairs L2"
+                "id": "tec_stairs",
+                "name": "2. Stairs"
             },
             "geometry": {
                 "type": "Polygon",
@@ -936,7 +958,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Stairs L3"
+                "id": "tec_stairs",
+                "name": "2. Stairs"
             },
             "geometry": {
                 "type": "Polygon",
@@ -969,7 +992,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Lobby"
+                "id": "tec_lobby",
+                "name": "3. Lobby"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1026,7 +1050,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Power control L3"
+                "id": "tec_power",
+                "name": "3. Power control"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1059,7 +1084,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Workshop"
+                "id": "tec_workshop",
+                "name": "3. Workshop"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1092,7 +1118,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Bots"
+                "id": "tec_bots",
+                "name": "4. Bots"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1125,7 +1152,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Laundry"
+                "id": "tec_laundry",
+                "name": "4. Laundry"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1158,7 +1186,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Power control L2"
+                "id": "tec_power",
+                "name": "4. Power control"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1191,7 +1220,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5. Pressure"
+                "id": "tec_pressure",
+                "name": "5. Pressure"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1224,7 +1254,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5. Storage"
+                "id": "tec_storage",
+                "name": "5. Storage"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1257,7 +1288,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "6. Depot"
+                "id": "tec_depot",
+                "name": "6. Depot"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1290,7 +1322,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "6. Office L2"
+                "id": "tec_office",
+                "name": "6. Office"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1323,7 +1356,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "7. Chief"
+                "id": "tec_chief",
+                "name": "7. Chief"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1356,7 +1390,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "7. Warehouse"
+                "id": "tec_warehouse",
+                "name": "7. Warehouse"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1429,7 +1464,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "8. Pipes control"
+                "id": "tec_pipes",
+                "name": "8. Pipes control"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1478,7 +1514,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "8. Secretary"
+                "id": "tec_secretary",
+                "name": "8. Secretary"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1511,7 +1548,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "9. Ventilation"
+                "id": "tec_ventilation",
+                "name": "9. Ventilation"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1544,7 +1582,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "10. Office L1"
+                "id": "tec_office",
+                "name": "10. Office"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1577,7 +1616,8 @@ var rooms_technical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Core"
+                "id": "tec_core",
+                "name": "Core"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1616,7 +1656,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Cerebral L2"
+                "id": "med_cerebral",
+                "name": "1. Cerebral"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1673,7 +1714,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Holding"
+                "id": "med_holding",
+                "name": "1. Holding"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1706,7 +1748,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Examination"
+                "id": "med_examination",
+                "name": "2. Examination"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1739,7 +1782,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Scanning"
+                "id": "med_scanning",
+                "name": "2. Scanning"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1772,7 +1816,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Checkpoint"
+                "id": "med_checkpoint",
+                "name": "3. Checkpoint"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1805,7 +1850,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Laboratory"
+                "id": "med_laboratory",
+                "name": "3. Laboratory"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1838,7 +1884,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Office"
+                "id": "med_office",
+                "name": "4. Office"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1871,7 +1918,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Processing"
+                "id": "med_processing",
+                "name": "4. Processing"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1920,7 +1968,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5. Cleaning"
+                "id": "med_cleaning",
+                "name": "5. Cleaning"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1953,7 +2002,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5. Research"
+                "id": "med_research",
+                "name": "5. Research"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1994,7 +2044,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "6. Rehab"
+                "id": "med_rehab",
+                "name": "6. Rehab"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2027,7 +2078,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "7. Quarantine"
+                "id": "med_quarantine",
+                "name": "7. Quarantine"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2068,7 +2120,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "8. Drugstore"
+                "id": "med_drugstore",
+                "name": "8. Drugstore"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2101,7 +2154,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "9. Plastics"
+                "id": "med_plastics",
+                "name": "9. Plastics"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2134,7 +2188,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "10. Cerebral L1"
+                "id": "med_cerebral",
+                "name": "10. Cerebral"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2175,7 +2230,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "11. Morgue"
+                "id": "med_morgue",
+                "name": "11. Morgue"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2208,7 +2264,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "12. Lockers"
+                "id": "med_lockers",
+                "name": "12. Lockers"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2241,7 +2298,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "14. Utility"
+                "id": "med_utility",
+                "name": "14. Utility"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2274,7 +2332,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "15. Conversion"
+                "id": "med_conversion",
+                "name": "15. Conversion"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2335,7 +2394,8 @@ var rooms_medical = {
         {
             "type": "Feature",
             "properties": {
-                "id": "16. Storage"
+                "id": "med_storage",
+                "name": "16. Storage"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2374,7 +2434,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Makeup"
+                "id": "hab_makeup",
+                "name": "1. Makeup"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2407,7 +2468,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Tickets"
+                "id": "hab_tickets",
+                "name": "2. Tickets"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2440,7 +2502,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Stripbar"
+                "id": "hab_stripbar",
+                "name": "3. Stripbar"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2473,7 +2536,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Private rooms"
+                "id": "hab_private",
+                "name": "4. Private rooms"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2506,7 +2570,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5. Utility"
+                "id": "hab_utility",
+                "name": "5. Utility"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2539,7 +2604,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "6. Apartments"
+                "id": "hab_apartments",
+                "name": "6. Apartments"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2572,7 +2638,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "6. Apartments L2"
+                "id": "hab_apartments",
+                "name": "6. Apartments"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2605,7 +2672,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "7. Toilet"
+                "id": "hab_toilet",
+                "name": "7. Toilet"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2638,7 +2706,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "8. Bar"
+                "id": "hab_bar",
+                "name": "8. Bar"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2671,7 +2740,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "9. Pool"
+                "id": "hab_pool",
+                "name": "9. Pool"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2704,7 +2774,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "10. Lockers"
+                "id": "hab_lockers",
+                "name": "10. Lockers"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2737,7 +2808,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "11. Club"
+                "id": "hab_club",
+                "name": "11. Club"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2770,7 +2842,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "11. Club L2"
+                "id": "hab_club",
+                "name": "11. Club"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2803,7 +2876,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "12. Cafeteria"
+                "id": "hab_cafeteria",
+                "name": "12. Cafeteria"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2836,7 +2910,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "14. Barracks"
+                "id": "hab_barracks",
+                "name": "14. Barracks"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2869,7 +2944,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "14. Barracks L2"
+                "id": "hab_barracks",
+                "name": "14. Barracks"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2902,7 +2978,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "15. Kitchen"
+                "id": "hab_kitchen",
+                "name": "15. Kitchen"
             },
             "geometry": {
                 "type": "Polygon",
@@ -2935,7 +3012,8 @@ var rooms_habitat = {
         {
             "type": "Feature",
             "properties": {
-                "id": "16. Storage"
+                "id": "hab_storage",
+                "name": "16. Storage"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3030,7 +3108,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Sales"
+                "id": "adm_sales",
+                "name": "1. Sales"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3063,7 +3142,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Sales L2"
+                "id": "adm_sales",
+                "name": "1. Sales"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3096,7 +3176,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Reception"
+                "id": "adm_reception",
+                "name": "2. Reception"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3129,7 +3210,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Administrator"
+                "id": "adm_administrator",
+                "name": "3. Administrator"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3162,7 +3244,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Briefing"
+                "id": "adm_briefing",
+                "name": "4. Briefing"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3195,7 +3278,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5. Supply"
+                "id": "adm_supply",
+                "name": "5. Supply"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3228,7 +3312,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "6. Secretary"
+                "id": "adm_secretary",
+                "name": "6. Secretary"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3269,7 +3354,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "7. Psychology"
+                "id": "adm_psychology",
+                "name": "7. Psychology"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3302,7 +3388,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "8. Archive"
+                "id": "adm_archive",
+                "name": "8. Archive"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3335,7 +3422,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "9. R and S"
+                "id": "adm_rs",
+                "name": "9. R&S"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3368,7 +3456,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "10. Accounting"
+                "id": "adm_accounting",
+                "name": "10. Accounting"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3401,7 +3490,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "11. Salary"
+                "id": "adm_salary",
+                "name": "11. Salary"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3450,7 +3540,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "12. Personnel"
+                "id": "adm_personnel",
+                "name": "12. Personnel"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3483,7 +3574,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "14. Toilet"
+                "id": "adm_toilet",
+                "name": "14. Toilet"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3516,7 +3608,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "15. Utility"
+                "id": "adm_utility",
+                "name": "15. Utility"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3549,7 +3642,8 @@ var rooms_administrative = {
         {
             "type": "Feature",
             "properties": {
-                "id": "16. Break room"
+                "id": "adm_break",
+                "name": "16. Break room"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3588,7 +3682,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Flight control"
+                "id": "sec_flight",
+                "name": "1. Flight control"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3637,7 +3732,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "1. Toilet"
+                "id": "sec_toilet",
+                "name": "1. Toilet"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3670,7 +3766,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Checkoint"
+                "id": "sec_checkpoint_1",
+                "name": "2. Checkpoint"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3703,7 +3800,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "2. Mainframe"
+                "id": "sec_mainframe",
+                "name": "2. Mainframe"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3736,7 +3834,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Barracks"
+                "id": "sec_barracks",
+                "name": "3. Barracks"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3769,7 +3868,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "3. Comms"
+                "id": "sec_comms",
+                "name": "3. Comms"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3810,7 +3910,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "4. Reception"
+                "id": "sec_reception",
+                "name": "4. Reception"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3851,7 +3952,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5. Utility"
+                "id": "sec_utility",
+                "name": "5. Utility"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3884,7 +3986,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "6. Arsenal"
+                "id": "sec_arsenal",
+                "name": "6. Arsenal"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3925,7 +4028,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "7. Duty room"
+                "id": "sec_duty",
+                "name": "7. Duty room"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3958,7 +4062,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "8. Gym"
+                "id": "sec_gym",
+                "name": "8. Gym"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3991,7 +4096,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "9. Shooting range"
+                "id": "sec_range",
+                "name": "9. Shooting range"
             },
             "geometry": {
                 "type": "Polygon",
@@ -4024,7 +4130,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "10. Office"
+                "id": "sec_office",
+                "name": "10. Office"
             },
             "geometry": {
                 "type": "Polygon",
@@ -4057,7 +4164,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "11. Surveillance"
+                "id": "sec_surveillance",
+                "name": "11. Surveillance"
             },
             "geometry": {
                 "type": "Polygon",
@@ -4090,7 +4198,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "12. Control room"
+                "id": "sec_control",
+                "name": "12. Control room"
             },
             "geometry": {
                 "type": "Polygon",
@@ -4123,7 +4232,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "14. Interrogation"
+                "id": "sec_interrogation",
+                "name": "14. Interrogation"
             },
             "geometry": {
                 "type": "Polygon",
@@ -4156,7 +4266,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "15. Workshop"
+                "id": "sec_workshop",
+                "name": "15. Workshop"
             },
             "geometry": {
                 "type": "Polygon",
@@ -4189,7 +4300,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "16. Checkpoint"
+                "id": "sec_checkpoint_2",
+                "name": "16. Checkpoint"
             },
             "geometry": {
                 "type": "Polygon",
@@ -4222,7 +4334,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "17. Detention"
+                "id": "sec_detention",
+                "name": "17. Detention"
             },
             "geometry": {
                 "type": "Polygon",
@@ -4255,7 +4368,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Hangar L1"
+                "id": "sec_hangar",
+                "name": "Hangar"
             },
             "geometry": {
                 "type": "Polygon",
@@ -4288,7 +4402,8 @@ var rooms_security = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Hangar L2"
+                "id": "sec_hangar",
+                "name": "Hangar"
             },
             "geometry": {
                 "type": "Polygon",
