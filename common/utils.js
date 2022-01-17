@@ -267,9 +267,11 @@ function zoomToFeature(list, id) {
         // Single marker
         marker_cluster.zoomToShowLayer(marker.get(list).get(id)[0], () => {
             // Zoom in further if we can
-            if (map.getZoom() < MAX_ZOOM) {
-                zoomToBounds(getOuterBounds(list, id));
-            }
+            window.setTimeout(() => {
+                if (map.getZoom() < MAX_ZOOM) {
+                    zoomToBounds(getOuterBounds(list, id));
+                }
+            }, 300);
         });
 
     }
