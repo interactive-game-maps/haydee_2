@@ -3,8 +3,9 @@ var ammo_smg_group_id = 'ammo_smg';
 var ammo_smg_create_checkbox = true;
 
 var ammo_smg_list = createSidebarTab(ammo_smg_group_id, ammo_smg_group_name, `<img class="sidebar-image" src="images/icons/${ammo_smg_group_id}.png" />`)
-
-var ammo_smg_group = L.featureGroup.subGroup(marker_cluster);
+var ammo_smg_group = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
 
 L.geoJSON(ammo_smg, {
     pointToLayer: (feature, latlng) => {

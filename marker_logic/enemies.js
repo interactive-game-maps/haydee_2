@@ -3,8 +3,9 @@ var enemies_group_id = 'enemies';
 var enemies_create_checkbox = true;
 
 var enemies_list = createSidebarTab(enemies_group_id, enemies_group_name, `<i class="fas fa-users"></i>`);
-
-var enemies_group = L.featureGroup.subGroup(marker_cluster);
+var enemies_group = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
 
 L.geoJSON(crawler, {
     pointToLayer: (feature, latlng) => {

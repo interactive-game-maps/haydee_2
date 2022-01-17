@@ -1,7 +1,9 @@
 var rooms_group_name = 'Rooms overview';
 var rooms_group_id = 'rooms';
 
-var rooms_group = L.featureGroup.subGroup(marker_cluster);
+var rooms_group = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
 
 var rooms_administrative_geojson = L.geoJSON(rooms_administrative, {
     onEachFeature: (feature, layer) => {

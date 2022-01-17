@@ -3,8 +3,9 @@ var notes_group_id = 'notes';
 var notes_create_checkbox = true;
 
 var notes_list = createSidebarTab(notes_group_id, notes_group_name, `<img class="sidebar-image" src="images/icons/${notes_group_id}.png" />`);
-
-var notes_group = L.featureGroup.subGroup(marker_cluster);
+var notes_group = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
 
 L.geoJSON(notes, {
     pointToLayer: (feature, latlng) => {

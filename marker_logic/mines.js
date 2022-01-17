@@ -3,8 +3,9 @@ var mines_group_id = 'mines';
 var mines_create_checkbox = true;
 
 var mines_list = createSidebarTab(mines_group_id, mines_group_name, `<img class="sidebar-image" src="images/icons/${mines_group_id}.png" />`);
-
-var mines_group = L.featureGroup.subGroup(marker_cluster);
+var mines_group = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
 
 L.geoJSON(mines, {
     pointToLayer: (feature, latlng) => {

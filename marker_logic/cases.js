@@ -3,8 +3,9 @@ var cases_group_id = 'cases';
 var cases_create_checkbox = true;
 
 var cases_list = createSidebarTab(cases_group_id, cases_group_name, `<img class="sidebar-image" src="images/icons/${cases_group_id}.png" />`);
-
-var cases_group = L.featureGroup.subGroup(marker_cluster);
+var cases_group = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
 
 L.geoJSON(cases, {
     pointToLayer: (feature, latlng) => {

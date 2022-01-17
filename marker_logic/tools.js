@@ -3,8 +3,9 @@ var tools_group_id = 'tools';
 var tools_create_checkbox = true;
 
 var tools_list = createSidebarTab(tools_group_id, tools_group_name, '<i class="fas fa-tools"></i>');
-
-var tools_group = L.featureGroup.subGroup(marker_cluster);
+var tools_group = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
 
 function containsKeyword(feature, keyword) {
     if ("id" in feature.properties && feature.properties.id.toLowerCase().includes(keyword.toLowerCase())) {

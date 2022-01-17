@@ -3,8 +3,9 @@ var medkits_group_id = 'medkits';
 var medkits_create_checkbox = true;
 
 var medkits_list = createSidebarTab(medkits_group_id, medkits_group_name, `<img class="sidebar-image" src="images/icons/${medkits_group_id}.png" />`);
-
-var medkits_group = L.featureGroup.subGroup(marker_cluster);
+var medkits_group = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
 
 L.geoJSON(medkits, {
     pointToLayer: (feature, latlng) => {

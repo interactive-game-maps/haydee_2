@@ -2,7 +2,9 @@ var save_locations_group_name = 'Save locations';
 var save_locations_group_id = 'save_locations';
 var save_locations_create_checkbox = false;
 
-var save_locations_group = L.featureGroup.subGroup(marker_cluster);
+var save_locations_group = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
 
 L.geoJSON(save_locations, {
     pointToLayer: (feature, latlng) => {

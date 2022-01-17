@@ -3,8 +3,9 @@ var ammo_pistol_group_id = 'ammo_pistol';
 var ammo_pistol_create_checkbox = true;
 
 var ammo_pistol_list = createSidebarTab(ammo_pistol_group_id, ammo_pistol_group_name, `<img class="sidebar-image" src="images/icons/${ammo_pistol_group_id}.png" />`)
-
-var ammo_pistol_group = L.featureGroup.subGroup(marker_cluster);
+var ammo_pistol_group = L.markerClusterGroup({
+    maxClusterRadius: 20
+});
 
 L.geoJSON(ammo_pistol, {
     pointToLayer: (feature, latlng) => {
