@@ -307,15 +307,19 @@ function zoomToFeature(list, id) {
             // Polygon
             zoomToBounds(getOuterBounds(list, id));
         } else {
-            // Single marker
-            marker_cluster.zoomToShowLayer(element, () => {
-                // Zoom in further if we can
-                window.setTimeout(() => {
-                    if (map.getZoom() < MAX_ZOOM) {
-                        zoomToBounds(getOuterBounds(list, id));
-                    }
-                }, 300);
-            });
+            try {
+                // Single marker
+                marker_cluster.zoomToShowLayer(element, () => {
+                    // Zoom in further if we can
+                    window.setTimeout(() => {
+                        if (map.getZoom() < MAX_ZOOM) {
+                            zoomToBounds(getOuterBounds(list, id));
+                        }
+                    }, 300);
+                });
+            } catch (error) {
+                zoomToBounds(getOuterBounds(list, id));
+            }
         }
     }
 }
