@@ -308,7 +308,7 @@ function zoomToFeature(list, id) {
             zoomToBounds(getOuterBounds(list, id));
         } else {
             // Single marker
-            marker.get(list).get('group').zoomToShowLayer(element, () => {
+            marker_cluster.zoomToShowLayer(element, () => {
                 // Zoom in further if we can
                 window.setTimeout(() => {
                     if (map.getZoom() < MAX_ZOOM) {

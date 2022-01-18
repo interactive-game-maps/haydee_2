@@ -3,9 +3,7 @@ var ammo_magnum_group_id = 'ammo_magnum';
 var ammo_magnum_create_checkbox = true;
 
 var ammo_magnum_list = createSidebarTab(ammo_magnum_group_id, ammo_magnum_group_name, `<img class="sidebar-image" src="images/icons/${ammo_magnum_group_id}.png" />`)
-var ammo_magnum_group = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
+var ammo_magnum_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(ammo_magnum, {
     pointToLayer: (feature, latlng) => {
@@ -37,7 +35,10 @@ L.geoJSON(ammo_magnum, {
             list_id: ammo_magnum_group_id
         });
     }
-}).addTo(ammo_magnum_group);
+}).getLayers().forEach(layer => {
+    ammo_magnum_group.addLayer(layer);
+});
+
 marker.get(ammo_magnum_group_id).set('group', ammo_magnum_group);
 marker.get(ammo_magnum_group_id).set('name', ammo_magnum_group_name);
 

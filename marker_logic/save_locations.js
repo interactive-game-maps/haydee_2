@@ -2,9 +2,7 @@ var save_locations_group_name = 'Save locations';
 var save_locations_group_id = 'save_locations';
 var save_locations_create_checkbox = false;
 
-var save_locations_group = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
+var save_locations_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(save_locations, {
     pointToLayer: (feature, latlng) => {
@@ -24,7 +22,10 @@ L.geoJSON(save_locations, {
             list_id: save_locations_group_id
         });
     }
-}).addTo(save_locations_group);
+}).getLayers().forEach(layer => {
+    save_locations_group.addLayer(layer);
+});
+
 marker.get(save_locations_group_id).set('group', save_locations_group);
 marker.get(save_locations_group_id).set('name', save_locations_group_name);
 

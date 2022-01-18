@@ -1,9 +1,7 @@
 var rooms_group_name = 'Rooms overview';
 var rooms_group_id = 'rooms';
 
-var rooms_group = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
+var rooms_group = L.featureGroup.subGroup(marker_cluster);
 
 var rooms_administrative_geojson = L.geoJSON(rooms_administrative, {
     onEachFeature: (feature, layer) => {
@@ -36,7 +34,11 @@ var rooms_administrative_geojson = L.geoJSON(rooms_administrative, {
             opacity: 0.5
         };
     }
-}).addTo(rooms_group);
+});
+
+rooms_administrative_geojson.getLayers().forEach(layer => {
+    rooms_group.addLayer(layer);
+});
 geoJSONs.push(rooms_administrative_geojson);
 
 var rooms_engineering_geojson = L.geoJSON(rooms_engineering, {
@@ -70,7 +72,11 @@ var rooms_engineering_geojson = L.geoJSON(rooms_engineering, {
             opacity: 0.5
         };
     }
-}).addTo(rooms_group);
+});
+
+rooms_engineering_geojson.getLayers().forEach(layer => {
+    rooms_group.addLayer(layer);
+});
 geoJSONs.push(rooms_engineering_geojson);
 
 var rooms_habitat_geojson = L.geoJSON(rooms_habitat, {
@@ -104,7 +110,11 @@ var rooms_habitat_geojson = L.geoJSON(rooms_habitat, {
             opacity: 0.5
         };
     }
-}).addTo(rooms_group);
+});
+
+rooms_habitat_geojson.getLayers().forEach(layer => {
+    rooms_group.addLayer(layer);
+});
 geoJSONs.push(rooms_habitat_geojson);
 
 var rooms_medical_geojson = L.geoJSON(rooms_medical, {
@@ -138,7 +148,11 @@ var rooms_medical_geojson = L.geoJSON(rooms_medical, {
             opacity: 0.5
         };
     }
-}).addTo(rooms_group);
+});
+
+rooms_medical_geojson.getLayers().forEach(layer => {
+    rooms_group.addLayer(layer);
+});
 geoJSONs.push(rooms_medical_geojson);
 
 var rooms_security_geojson = L.geoJSON(rooms_security, {
@@ -172,7 +186,11 @@ var rooms_security_geojson = L.geoJSON(rooms_security, {
             opacity: 0.5
         };
     }
-}).addTo(rooms_group);
+});
+
+rooms_security_geojson.getLayers().forEach(layer => {
+    rooms_group.addLayer(layer);
+});
 geoJSONs.push(rooms_security_geojson);
 
 var rooms_technical_geojson = L.geoJSON(rooms_technical, {
@@ -206,7 +224,11 @@ var rooms_technical_geojson = L.geoJSON(rooms_technical, {
             opacity: 0.5
         };
     }
-}).addTo(rooms_group);
+});
+
+rooms_technical_geojson.getLayers().forEach(layer => {
+    rooms_group.addLayer(layer);
+});
 geoJSONs.push(rooms_technical_geojson);
 
 marker.get(rooms_group_id).set('group', rooms_group);

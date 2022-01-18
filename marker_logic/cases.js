@@ -3,9 +3,7 @@ var cases_group_id = 'cases';
 var cases_create_checkbox = true;
 
 var cases_list = createSidebarTab(cases_group_id, cases_group_name, `<img class="sidebar-image" src="images/icons/${cases_group_id}.png" />`);
-var cases_group = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
+var cases_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(cases, {
     pointToLayer: (feature, latlng) => {
@@ -25,7 +23,10 @@ L.geoJSON(cases, {
             list_id: cases_group_id
         });
     }
-}).addTo(cases_group);
+}).getLayers().forEach(layer => {
+    cases_group.addLayer(layer);
+});
+
 marker.get(cases_group_id).set('group', cases_group);
 marker.get(cases_group_id).set('name', cases_group_name);
 

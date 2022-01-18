@@ -3,9 +3,7 @@ var tools_group_id = 'tools';
 var tools_create_checkbox = true;
 
 var tools_list = createSidebarTab(tools_group_id, tools_group_name, '<i class="fas fa-tools"></i>');
-var tools_group = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
+var tools_group = L.featureGroup.subGroup(marker_cluster);
 
 function containsKeyword(feature, keyword) {
     if ("id" in feature.properties && feature.properties.id.toLowerCase().includes(keyword.toLowerCase())) {
@@ -302,7 +300,10 @@ L.geoJSON(tools, {
             list_id: tools_group_id
         });
     }
-}).addTo(tools_group);
+}).getLayers().forEach(layer => {
+    tools_group.addLayer(layer);
+});
+
 marker.get(tools_group_id).set('group', tools_group);
 marker.get(tools_group_id).set('name', tools_group_name);
 

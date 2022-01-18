@@ -3,9 +3,7 @@ var medkits_group_id = 'medkits';
 var medkits_create_checkbox = true;
 
 var medkits_list = createSidebarTab(medkits_group_id, medkits_group_name, `<img class="sidebar-image" src="images/icons/${medkits_group_id}.png" />`);
-var medkits_group = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
+var medkits_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(medkits, {
     pointToLayer: (feature, latlng) => {
@@ -32,7 +30,10 @@ L.geoJSON(medkits, {
             list_id: medkits_group_id
         });
     }
-}).addTo(medkits_group);
+}).getLayers().forEach(layer => {
+    medkits_group.addLayer(layer);
+});
+
 marker.get(medkits_group_id).set('group', medkits_group);
 marker.get(medkits_group_id).set('name', medkits_group_name);
 

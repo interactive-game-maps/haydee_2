@@ -3,9 +3,7 @@ var floppy_disks_group_id = 'floppy_disks';
 var floppy_disks_create_checkbox = true;
 
 var floppy_disks_list = createSidebarTab(floppy_disks_group_id, floppy_disks_group_name, `<img class="sidebar-image" src="images/icons/floppy_disks.png" />`);
-var floppy_disks_group = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
+var floppy_disks_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(floppy_disks, {
     pointToLayer: (feature, latlng) => {
@@ -25,7 +23,10 @@ L.geoJSON(floppy_disks, {
             list_id: floppy_disks_group_id
         });
     }
-}).addTo(floppy_disks_group);
+}).getLayers().forEach(layer => {
+    floppy_disks_group.addLayer(layer);
+});
+
 marker.get(floppy_disks_group_id).set('group', floppy_disks_group);
 marker.get(floppy_disks_group_id).set('name', floppy_disks_group_name);
 

@@ -3,9 +3,7 @@ var component_red_group_id = 'component_red';
 var component_red_create_checkbox = true;
 
 var component_red_list = createSidebarTab(component_red_group_id, component_red_group_name, `<img class="sidebar-image" src="images/icons/${component_red_group_id}.png" />`);
-var component_red_group = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
+var component_red_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(component_red, {
     pointToLayer: (feature, latlng) => {
@@ -37,7 +35,10 @@ L.geoJSON(component_red, {
             list_id: component_red_group_id
         });
     }
-}).addTo(component_red_group);
+}).getLayers().forEach(layer => {
+    component_red_group.addLayer(layer);
+});
+
 marker.get(component_red_group_id).set('group', component_red_group);
 marker.get(component_red_group_id).set('name', component_red_group_name);
 

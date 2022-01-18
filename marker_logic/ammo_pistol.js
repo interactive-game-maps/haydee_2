@@ -3,9 +3,7 @@ var ammo_pistol_group_id = 'ammo_pistol';
 var ammo_pistol_create_checkbox = true;
 
 var ammo_pistol_list = createSidebarTab(ammo_pistol_group_id, ammo_pistol_group_name, `<img class="sidebar-image" src="images/icons/${ammo_pistol_group_id}.png" />`)
-var ammo_pistol_group = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
+var ammo_pistol_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(ammo_pistol, {
     pointToLayer: (feature, latlng) => {
@@ -37,7 +35,10 @@ L.geoJSON(ammo_pistol, {
             list_id: ammo_pistol_group_id
         });
     }
-}).addTo(ammo_pistol_group);
+}).getLayers().forEach(layer => {
+    ammo_pistol_group.addLayer(layer);
+});
+
 marker.get(ammo_pistol_group_id).set('group', ammo_pistol_group);
 marker.get(ammo_pistol_group_id).set('name', ammo_pistol_group_name);
 

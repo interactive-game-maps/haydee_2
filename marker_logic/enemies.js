@@ -3,9 +3,7 @@ var enemies_group_id = 'enemies';
 var enemies_create_checkbox = true;
 
 var enemies_list = createSidebarTab(enemies_group_id, enemies_group_name, `<i class="fas fa-users"></i>`);
-var enemies_group = L.markerClusterGroup({
-    maxClusterRadius: 20
-});
+var enemies_group = L.featureGroup.subGroup(marker_cluster);
 
 L.geoJSON(crawler, {
     pointToLayer: (feature, latlng) => {
@@ -25,7 +23,9 @@ L.geoJSON(crawler, {
             list_id: enemies_group_id
         });
     }
-}).addTo(enemies_group);
+}).getLayers().forEach(layer => {
+    enemies_group.addLayer(layer);
+});
 
 L.geoJSON(slasher, {
     pointToLayer: (feature, latlng) => {
@@ -45,7 +45,9 @@ L.geoJSON(slasher, {
             list_id: enemies_group_id
         });
     }
-}).addTo(enemies_group);
+}).getLayers().forEach(layer => {
+    enemies_group.addLayer(layer);
+});
 
 marker.get(enemies_group_id).set('group', enemies_group);
 marker.get(enemies_group_id).set('name', enemies_group_name);
