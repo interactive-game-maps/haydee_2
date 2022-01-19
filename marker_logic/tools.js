@@ -1,10 +1,3 @@
-var tools_group_name = 'Tools';
-var tools_group_id = 'tools';
-var tools_create_checkbox = true;
-
-var tools_list = createSidebarTab(tools_group_id, tools_group_name, '<i class="fas fa-tools"></i>');
-var tools_group = L.featureGroup.subGroup(marker_cluster);
-
 function containsKeyword(feature, keyword) {
     if ("id" in feature.properties && feature.properties.id.toLowerCase().includes(keyword.toLowerCase())) {
         return true;
@@ -17,7 +10,11 @@ function containsKeyword(feature, keyword) {
     return false;
 }
 
-L.geoJSON(tools, {
+var tools_layer = new InteractiveLayer('tools', tools, {
+    name: "Tools",
+    create_checkbox: true,
+    create_feature_popup: true,
+    sidebar_icon_html: '<i class="fas fa-tools"></i>',
     pointToLayer: (feature, latlng) => {
         if (containsKeyword(feature, "Agent")) {
             return L.marker(latlng, {
@@ -288,25 +285,7 @@ L.geoJSON(tools, {
             icon: getCustomIcon(),
             riseOnHover: true
         });
-    },
-    onEachFeature: (feature, layer) => {
-        addPopup(feature, layer, {
-            layer_group: tools_group,
-            list: tools_list,
-            list_id: tools_group_id,
-            create_checkbox: tools_create_checkbox
-        });
-        saveMarker(feature, layer, {
-            list_id: tools_group_id
-        });
     }
-}).getLayers().forEach(layer => {
-    tools_group.addLayer(layer);
 });
 
-marker.get(tools_group_id).set('group', tools_group);
-marker.get(tools_group_id).set('name', tools_group_name);
-
-if (tools_create_checkbox) {
-    setColumnCount(marker.get(tools_group_id), tools_list);
-}
+interactive_layers.set(tools_layer.id, tools_layer);
