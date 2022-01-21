@@ -33,3 +33,15 @@ function getPopupMedia(feature, list_id, html) {
 
     return html;
 }
+
+function containsKeyword(feature, keyword) {
+    if ("id" in feature.properties && feature.properties.id.toLowerCase().includes(keyword.toLowerCase())) {
+        return true;
+    }
+
+    if ("description" in feature.properties && feature.properties.description.toLowerCase().includes(keyword.toLowerCase())) {
+        return true;
+    }
+
+    return false;
+}
