@@ -1,5 +1,5 @@
-function getTools() {
-    return new InteractiveLayer('tools', tools, {
+function addTools(map) {
+    map.addInteractiveLayer('tools', tools, {
         name: "Tools",
         create_checkbox: true,
         create_feature_popup: true,
@@ -95,6 +95,12 @@ function getTools() {
                     riseOnHover: true
                 });
             }
+            if (containsKeyword(feature, "Plier")) {
+                return L.marker(latlng, {
+                    icon: Utils.getCustomIcon("plier"),
+                    riseOnHover: true
+                });
+            }
             if (containsKeyword(feature, "Fuse")) {
                 return L.marker(latlng, {
                     icon: Utils.getCustomIcon("fuse"),
@@ -164,12 +170,6 @@ function getTools() {
             if (containsKeyword(feature, "Pistol")) {
                 return L.marker(latlng, {
                     icon: Utils.getCustomIcon("pistol"),
-                    riseOnHover: true
-                });
-            }
-            if (containsKeyword(feature, "Plier")) {
-                return L.marker(latlng, {
-                    icon: Utils.getCustomIcon("plier"),
                     riseOnHover: true
                 });
             }

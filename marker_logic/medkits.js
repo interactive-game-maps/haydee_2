@@ -1,5 +1,5 @@
-function getMedkits() {
-    return new InteractiveLayer('medkits', medkits, {
+function addMedkits(map) {
+    map.addInteractiveLayer('medkits', medkits, {
         name: "Medkits",
         create_checkbox: true,
         create_feature_popup: true,

@@ -12,7 +12,6 @@ function getPopupMedia(feature, list_id, html) {
         var image = document.createElement('img');
         image.src = image_link.href;
         image.className = 'popup-media';
-        image.height = 300;
 
         image_link.appendChild(image);
         html.appendChild(image_link);

@@ -1,5 +1,5 @@
-function getAmmoMagnum() {
-    return new InteractiveLayer('ammo_magnum', ammo_magnum, {
+function addAmmoMagnum(map) {
+    map.addInteractiveLayer('ammo_magnum', ammo_magnum, {
         name: "Magnum ammo",
         create_checkbox: true,
         create_feature_popup: true,

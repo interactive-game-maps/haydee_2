@@ -1,5 +1,5 @@
-function getComponentBlue() {
-    return new InteractiveLayer('component_blue', component_blue, {
+function addComponentBlue(map) {
+    map.addInteractiveLayer('component_blue', component_blue, {
         name: "Blue component",
         create_checkbox: true,
         create_feature_popup: true,

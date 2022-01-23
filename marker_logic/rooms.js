@@ -1,5 +1,5 @@
-function getRooms() {
-    var rooms_layer = new InteractiveLayer('rooms', rooms_administrative, {
+function addRooms(map) {
+    let rooms_layer = map.addInteractiveLayer('rooms', rooms_administrative, {
         name: "Rooms",
         create_checkbox: false,
         create_feature_popup: false,
@@ -10,10 +10,10 @@ function getRooms() {
                     this.highlightFeature(feature.properties.id);
                 },
                 mouseout: event => {
-                    this.removeHighlightFeature(feature.properties.id);
+                    this.removeFeatureHighlight(feature.properties.id);
                 },
                 click: event => {
-                    Utils.share_marker.prevent();
+                    map.getShareMarker().prevent();
                     this.zoomToFeature(feature.properties.id);
                     Utils.setHistoryState(this.id, feature.properties.id);
                 }
@@ -43,10 +43,10 @@ function getRooms() {
                     this.highlightFeature(feature.properties.id);
                 },
                 mouseout: event => {
-                    this.removeHighlightFeature(feature.properties.id);
+                    this.removeFeatureHighlight(feature.properties.id);
                 },
                 click: event => {
-                    Utils.share_marker.prevent();
+                    map.getShareMarker().prevent();
                     this.zoomToFeature(feature.properties.id);
                     Utils.setHistoryState(this.id, feature.properties.id);
                 }
@@ -76,10 +76,10 @@ function getRooms() {
                     this.highlightFeature(feature.properties.id);
                 },
                 mouseout: event => {
-                    this.removeHighlightFeature(feature.properties.id);
+                    this.removeFeatureHighlight(feature.properties.id);
                 },
                 click: event => {
-                    Utils.share_marker.prevent();
+                    map.getShareMarker().prevent();
                     this.zoomToFeature(feature.properties.id);
                     Utils.setHistoryState(this.id, feature.properties.id);
                 }
@@ -109,10 +109,10 @@ function getRooms() {
                     this.highlightFeature(feature.properties.id);
                 },
                 mouseout: event => {
-                    this.removeHighlightFeature(feature.properties.id);
+                    this.removeFeatureHighlight(feature.properties.id);
                 },
                 click: event => {
-                    Utils.share_marker.prevent();
+                    map.getShareMarker().prevent();
                     this.zoomToFeature(feature.properties.id);
                     Utils.setHistoryState(this.id, feature.properties.id);
                 }
@@ -142,10 +142,10 @@ function getRooms() {
                     this.highlightFeature(feature.properties.id);
                 },
                 mouseout: event => {
-                    this.removeHighlightFeature(feature.properties.id);
+                    this.removeFeatureHighlight(feature.properties.id);
                 },
                 click: event => {
-                    Utils.share_marker.prevent();
+                    map.getShareMarker().prevent();
                     this.zoomToFeature(feature.properties.id);
                     Utils.setHistoryState(this.id, feature.properties.id);
                 }
@@ -175,10 +175,10 @@ function getRooms() {
                     this.highlightFeature(feature.properties.id);
                 },
                 mouseout: event => {
-                    this.removeHighlightFeature(feature.properties.id);
+                    this.removeFeatureHighlight(feature.properties.id);
                 },
                 click: event => {
-                    Utils.share_marker.prevent();
+                    map.getShareMarker().prevent();
                     this.zoomToFeature(feature.properties.id);
                     Utils.setHistoryState(this.id, feature.properties.id);
                 }

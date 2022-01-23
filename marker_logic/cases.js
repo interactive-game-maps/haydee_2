@@ -1,5 +1,5 @@
-function getCases() {
-    return new InteractiveLayer('cases', cases, {
+function addCases(map) {
+    map.addInteractiveLayer('cases', cases, {
         name: "Cases",
         create_checkbox: true,
         create_feature_popup: true,

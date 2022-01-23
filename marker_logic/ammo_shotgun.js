@@ -1,5 +1,5 @@
-function getAmmoShotgun() {
-    return new InteractiveLayer('ammo_shotgun', ammo_shotgun, {
+function addAmmoShotgun(map) {
+    map.addInteractiveLayer('ammo_shotgun', ammo_shotgun, {
         name: "Shotgun ammo",
         create_checkbox: true,
         create_feature_popup: true,

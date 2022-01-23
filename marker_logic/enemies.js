@@ -1,5 +1,5 @@
-function getEnemies() {
-    var enemies_layer = new InteractiveLayer('enemies', crawler, {
+function addEnemies(map) {
+    let enemies_layer = map.addInteractiveLayer('enemies', crawler, {
         name: "Enemies",
         create_checkbox: true,
         create_feature_popup: true,
@@ -21,6 +21,4 @@ function getEnemies() {
             });
         }
     })
-
-    return enemies_layer;
 }

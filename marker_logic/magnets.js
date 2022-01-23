@@ -1,5 +1,5 @@
-function getMagnets() {
-    return new InteractiveLayer('magnets', magnets, {
+function addMagnets(map) {
+    map.addInteractiveLayer('magnets', magnets, {
         name: "Magnets",
         create_checkbox: true,
         create_feature_popup: true,

@@ -4,9 +4,9 @@ var interactive_map = new InteractiveMap('map', {
     website_source: 'https://github.com/interactive-game-maps/haydee_2',
     website_subdir: 'haydee_2',
     attribution: `
-<li><div>Thanks to <a href="https://steamcommunity.com/profiles/76561197979867148" title="Enthusiast">Enthusiast</a> for the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2315048067" title="Softcore">Softcore</a> and <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2327634458" title="Hardcore">Hardcore</a> maps.</div></li>
-<li><div>Thanks to <a href="https://steamcommunity.com/profiles/76561198027883969" title="Nunu">Nunu</a> the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2376352195" title="">enemy</a> map.</div></li>
-`
+    <li><div><a href="https://steamcommunity.com/profiles/76561197979867148" title="Enthusiast">Enthusiast</a> with the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2315048067" title="Softcore">Softcore</a> and <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2327634458" title="Hardcore">Hardcore</a> maps.</div></li>
+    <li><div><a href="https://steamcommunity.com/profiles/76561198027883969" title="Nunu">Nunu</a> with the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2376352195" title="">enemy</a> map.</div></li>
+    `
 });
 
 interactive_map.addTileLayer("Overview", {
@@ -14,22 +14,22 @@ interactive_map.addTileLayer("Overview", {
     maxNativeZoom: 8
 });
 
-interactive_map.addInteractiveLayer(getNotes());
-interactive_map.addInteractiveLayer(getMagnets());
-interactive_map.addInteractiveLayer(getCases());
-interactive_map.addInteractiveLayer(getMines());
-interactive_map.addInteractiveLayer(getEnemies());
-interactive_map.addInteractiveLayer(getFloppyDisks());
-interactive_map.addInteractiveLayer(getMedkits());
-interactive_map.addInteractiveLayer(getAmmoPistol());
-interactive_map.addInteractiveLayer(getAmmoSmg());
-interactive_map.addInteractiveLayer(getAmmoMagnum());
-interactive_map.addInteractiveLayer(getAmmoShotgun());
-interactive_map.addInteractiveLayer(getComponentBlue());
-interactive_map.addInteractiveLayer(getComponentRed());
-interactive_map.addInteractiveLayer(getComponentYellow());
-interactive_map.addInteractiveLayer(getTools());
-interactive_map.addInteractiveLayer(getSaveLocations());
-interactive_map.addInteractiveLayer(getRooms());
+addNotes(interactive_map);
+addMagnets(interactive_map);
+addCases(interactive_map);
+addMines(interactive_map);
+addEnemies(interactive_map);
+addFloppyDisks(interactive_map);
+addMedkits(interactive_map);
+addAmmoPistol(interactive_map);
+addAmmoSmg(interactive_map);
+addAmmoMagnum(interactive_map);
+addAmmoShotgun(interactive_map);
+addComponentBlue(interactive_map);
+addComponentRed(interactive_map);
+addComponentYellow(interactive_map);
+addTools(interactive_map);
+addSaveLocations(interactive_map);
+addRooms(interactive_map);
 
 interactive_map.finalize();

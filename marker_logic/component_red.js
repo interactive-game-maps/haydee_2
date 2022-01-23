@@ -1,5 +1,5 @@
-function getComponentRed() {
-    return new InteractiveLayer('component_red', component_red, {
+function addComponentRed(map) {
+    map.addInteractiveLayer('component_red', component_red, {
         name: "Red component",
         create_checkbox: true,
         create_feature_popup: true,
