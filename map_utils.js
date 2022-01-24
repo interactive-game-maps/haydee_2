@@ -1,4 +1,6 @@
-function getPopupMedia(feature, list_id, html) {
+function getPopupMedia(feature, list_id) {
+    var html = document.createElement('div');
+
     if (feature.properties.image_id) {
         var image_link = document.createElement('a');
 
