@@ -89,7 +89,7 @@ html, body, #map {
 
 .popup-media {
     max-width: min(500px, 75vw);
-    max-height: min(500px, 50vh);
+    max-height: min(500px, 25vh);
 }
 
 .flex-grow-0 {

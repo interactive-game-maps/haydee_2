@@ -62,7 +62,7 @@ function addRooms(map) {
             fillOpacity: 0.3
         },
         polygon_style_highlight: {
-            color: 'red',
+            color: 'blue',
             fillColor: 'orange',
             opacity: 1,
             fillOpacity: 0.5
@@ -194,7 +194,7 @@ function addRooms(map) {
             fillOpacity: 0.3
         },
         polygon_style_highlight: {
-            color: 'red',
+            color: 'blue',
             fillColor: 'yellow',
             opacity: 1,
             fillOpacity: 0.5
