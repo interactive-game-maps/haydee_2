@@ -14,6 +14,7 @@ function addEnemies(map) {
     });
 
     enemies_layer.addGeoJson(slasher, {
+        create_feature_popup: true,
         pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {
                 icon: Utils.getCustomIcon('fa-running'),
