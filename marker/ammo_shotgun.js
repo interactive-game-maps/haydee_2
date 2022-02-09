@@ -64,21 +64,6 @@ var ammo_shotgun = {
         {
             "type": "Feature",
             "properties": {
-                "id": "5",
-                "image_id": "5",
-                "description": "Softcore only!\nSoftcore:\t\t10"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    11.246094,
-                    -83.609375
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "id": "6",
                 "image_id": "cases/N7_C_AADM",
                 "description": "Needs lockpick\nSoftcore:\t\t10\nHardcore:\t5"
